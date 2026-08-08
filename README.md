@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>Master Mathematics Faster with FormulaIQ</strong>
+  <strong>A Smart Mathematics Formula & Revision Companion</strong>
 </p>
 
 <p align="center">
-  A modern React Native mathematics reference app designed for quick formula revision, useful-number references, and competitive exam preparation.
+  A modern React Native application for learning, revising, and quickly accessing essential mathematical formulas, concepts, and useful number references.
 </p>
 
 <p align="center">
@@ -17,6 +17,9 @@
     <img src="https://img.shields.io/badge/📱%20Download%20APK-FormulaIQ-2ea44f?style=for-the-badge" alt="Download FormulaIQ APK"/>
   </a>
 </p>
+
+---
+
 
 ---
 
