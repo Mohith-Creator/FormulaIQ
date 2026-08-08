@@ -1,0 +1,120 @@
+[
+  {
+    "id": "factor-definition",
+    "category": "Definition",
+    "title": "Factor",
+    "formula": "n ÷ factor = Whole Number",
+    "latex": "\\frac{n}{factor}",
+    "description": "A factor is a number that divides another number exactly without leaving any remainder.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Given Number"
+      }
+    ],
+    "example": {
+      "question": "Find the factors of 24.",
+      "solution": "1, 2, 3, 4, 6, 8, 12, 24."
+    },
+    "note": "Every number has at least two factors: 1 and itself."
+  },
+  {
+    "id": "multiple-definition",
+    "category": "Definition",
+    "title": "Multiple",
+    "formula": "Multiple = Number × Integer",
+    "latex": "n\\times k",
+    "description": "A multiple is obtained by multiplying a number by a whole number.",
+    "variables": [
+      {
+        "symbol": "k",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Write the first five multiples of 7.",
+      "solution": "7, 14, 21, 28, 35."
+    },
+    "note": "Every number has infinitely many multiples."
+  },
+  {
+    "id": "number-of-factors",
+    "category": "Formula",
+    "title": "Number of Factors",
+    "formula": "(a+1)(b+1)(c+1)...",
+    "latex": "(a+1)(b+1)(c+1)",
+    "description": "If n = pᵃqᵇrᶜ..., then the total number of factors equals (a+1)(b+1)(c+1)...",
+    "variables": [
+      {
+        "symbol": "a,b,c",
+        "meaning": "Prime Exponents"
+      }
+    ],
+    "example": {
+      "question": "Find the number of factors of 72.",
+      "solution": "72 = 2³ × 3². Number of factors = (3+1)(2+1) = 12."
+    },
+    "note": "Use prime factorization before applying the formula."
+  },
+  {
+    "id": "sum-of-factors",
+    "category": "Formula",
+    "title": "Sum of Factors",
+    "formula": "(pⁿ⁺¹−1)/(p−1)",
+    "latex": "\\frac{p^{n+1}-1}{p-1}",
+    "description": "For a prime power pⁿ, the sum of its factors is (pⁿ⁺¹−1)/(p−1). For multiple prime factors, multiply the individual sums.",
+    "variables": [
+      {
+        "symbol": "p",
+        "meaning": "Prime Number"
+      },
+      {
+        "symbol": "n",
+        "meaning": "Exponent"
+      }
+    ],
+    "example": {
+      "question": "Find the sum of factors of 8.",
+      "solution": "8 = 2³. Sum = (2⁴−1)/(2−1) = 15."
+    },
+    "note": "Frequently used in competitive exams."
+  },
+  {
+    "id": "greatest-factor",
+    "category": "Property",
+    "title": "Greatest Factor",
+    "formula": "Greatest Factor = Number",
+    "latex": "n",
+    "description": "The greatest factor of any number is the number itself.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Find the greatest factor of 96.",
+      "solution": "The greatest factor is 96."
+    },
+    "note": "Every number is divisible by itself."
+  },
+  {
+    "id": "smallest-factor",
+    "category": "Property",
+    "title": "Smallest Factor",
+    "formula": "Smallest Factor = 1",
+    "latex": "1",
+    "description": "The smallest factor of every natural number is 1.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Natural Number"
+      }
+    ],
+    "example": {
+      "question": "Find the smallest factor of 125.",
+      "solution": "The smallest factor is 1."
+    },
+    "note": "1 is a factor of every natural number."
+  }
+]

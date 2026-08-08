@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "FormulaIQ",
+    "slug": "formulaiq",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app/app-icon.png",
+    "scheme": "formulaiq",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/app/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F8FAFC"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "com.mohithreddy.formulaiq",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app/app-icon.png",
+        "backgroundColor": "#F8FAFC"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/app/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "baff2efa-1ea3-4911-ae1d-a7309f29053d"
+      }
+    },
+    "owner": "mohith1532"
+  }
+}

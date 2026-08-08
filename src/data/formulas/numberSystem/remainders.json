@@ -1,0 +1,109 @@
+[
+  {
+    "id": "division-algorithm",
+    "category": "Formula",
+    "title": "Division Algorithm",
+    "formula": "Dividend = Divisor × Quotient + Remainder",
+    "latex": "Dividend=Divisor\\times Quotient+Remainder",
+    "description": "Expresses the relationship between dividend, divisor, quotient and remainder.",
+    "variables": [
+      {
+        "symbol": "Dividend",
+        "meaning": "Number to be divided"
+      },
+      {
+        "symbol": "Divisor",
+        "meaning": "Number dividing the dividend"
+      },
+      {
+        "symbol": "Quotient",
+        "meaning": "Result of division"
+      },
+      {
+        "symbol": "Remainder",
+        "meaning": "Leftover value"
+      }
+    ],
+    "example": {
+      "question": "Find the remainder when 29 is divided by 6.",
+      "solution": "29 = 6 × 4 + 5, so the remainder is 5."
+    },
+    "note": "The remainder is always less than the divisor."
+  },
+  {
+    "id": "remainder-range",
+    "category": "Property",
+    "title": "Range of Remainder",
+    "formula": "0 ≤ Remainder < Divisor",
+    "latex": "0\\le R<divisor",
+    "description": "The remainder is always non-negative and strictly less than the divisor.",
+    "variables": [
+      {
+        "symbol": "R",
+        "meaning": "Remainder"
+      }
+    ],
+    "example": {
+      "question": "Can the remainder be 8 when dividing by 8?",
+      "solution": "No. The largest possible remainder is 7."
+    },
+    "note": "A remainder can never be equal to or greater than the divisor."
+  },
+  {
+    "id": "divisible-remainder",
+    "category": "Property",
+    "title": "Divisible Number",
+    "formula": "Remainder = 0",
+    "latex": "R=0",
+    "description": "If the remainder is zero, the dividend is exactly divisible by the divisor.",
+    "variables": [
+      {
+        "symbol": "R",
+        "meaning": "Remainder"
+      }
+    ],
+    "example": {
+      "question": "Find the remainder when 48 is divided by 6.",
+      "solution": "48 = 6 × 8 + 0. Hence the remainder is 0."
+    },
+    "note": "A remainder of zero means exact division."
+  },
+  {
+    "id": "remainder-of-sum",
+    "category": "Property",
+    "title": "Remainder of Sum",
+    "formula": "(a+b) mod n = [(a mod n)+(b mod n)] mod n",
+    "latex": "(a+b)\\bmod n=((a\\bmod n)+(b\\bmod n))\\bmod n",
+    "description": "The remainder of a sum can be obtained from the remainders of the individual numbers.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Divisor"
+      }
+    ],
+    "example": {
+      "question": "Find the remainder when 27 + 35 is divided by 5.",
+      "solution": "27 mod 5 = 2, 35 mod 5 = 0, total = 2."
+    },
+    "note": "Useful in modular arithmetic."
+  },
+  {
+    "id": "remainder-of-product",
+    "category": "Property",
+    "title": "Remainder of Product",
+    "formula": "(ab) mod n = [(a mod n)(b mod n)] mod n",
+    "latex": "(ab)\\bmod n=((a\\bmod n)(b\\bmod n))\\bmod n",
+    "description": "The remainder of a product depends on the remainders of its factors.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Divisor"
+      }
+    ],
+    "example": {
+      "question": "Find the remainder when 13 × 17 is divided by 5.",
+      "solution": "13 mod 5 = 3, 17 mod 5 = 2, 3 × 2 = 6, remainder = 1."
+    },
+    "note": "Frequently used in competitive examinations."
+  }
+]

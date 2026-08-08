@@ -1,0 +1,97 @@
+[
+  {
+    "id": "angle-bisector",
+    "category": "Construction",
+    "title": "Angle Bisector",
+    "formula": "∠A = ∠B",
+    "latex": "\\angle A=\\angle B",
+    "description": "An angle bisector divides an angle into two equal angles.",
+    "variables": [
+      {
+        "symbol": "∠",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Construct the bisector of a 70° angle.",
+      "solution": "Each angle formed is 35°."
+    },
+    "note": "Constructed using a compass and ruler."
+  },
+  {
+    "id": "perpendicular-bisector",
+    "category": "Construction",
+    "title": "Perpendicular Bisector",
+    "formula": "90° at Midpoint",
+    "latex": "90^\\circ",
+    "description": "A perpendicular bisector divides a line segment into two equal parts at right angles.",
+    "variables": [
+      {
+        "symbol": "AB",
+        "meaning": "Line Segment"
+      }
+    ],
+    "example": {
+      "question": "Construct the perpendicular bisector of a 10 cm line segment.",
+      "solution": "The midpoint is at 5 cm and the bisector forms a 90° angle."
+    },
+    "note": "Every point on the bisector is equidistant from the endpoints."
+  },
+  {
+    "id": "copy-angle",
+    "category": "Construction",
+    "title": "Copy an Angle",
+    "formula": "∠A = ∠B",
+    "latex": "\\angle A=\\angle B",
+    "description": "Constructs an angle equal to a given angle using a compass.",
+    "variables": [
+      {
+        "symbol": "∠",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Construct an angle equal to 55°.",
+      "solution": "Using a compass, copy the angle to obtain another 55° angle."
+    },
+    "note": "No protractor is required."
+  },
+  {
+    "id": "parallel-line-construction",
+    "category": "Construction",
+    "title": "Parallel Line",
+    "formula": "l₁ ∥ l₂",
+    "latex": "l_1\\parallel l_2",
+    "description": "Constructs a line parallel to a given line through a given point.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Line"
+      }
+    ],
+    "example": {
+      "question": "Construct a line parallel to AB through point P.",
+      "solution": "Copy the corresponding angle using a compass."
+    },
+    "note": "Alternate interior angles are equal."
+  },
+  {
+    "id": "perpendicular-line-construction",
+    "category": "Construction",
+    "title": "Perpendicular Line",
+    "formula": "l₁ ⟂ l₂",
+    "latex": "l_1\\perp l_2",
+    "description": "Constructs a line perpendicular to a given line.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Line"
+      }
+    ],
+    "example": {
+      "question": "Construct a perpendicular to line AB through point P.",
+      "solution": "The constructed line forms a 90° angle with AB."
+    },
+    "note": "Performed using a compass and ruler."
+  }
+]

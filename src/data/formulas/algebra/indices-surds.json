@@ -1,0 +1,135 @@
+[
+  {
+    "id": "product-of-powers",
+    "category": "Law",
+    "title": "Product of Powers",
+    "formula": "aᵐ × aⁿ = aᵐ⁺ⁿ",
+    "latex": "a^m\\times a^n=a^{m+n}",
+    "description": "When multiplying powers with the same base, add the exponents.",
+    "variables": [
+      { "symbol": "a", "meaning": "Base" },
+      { "symbol": "m", "meaning": "First Exponent" },
+      { "symbol": "n", "meaning": "Second Exponent" }
+    ],
+    "example": {
+      "question": "Simplify x³ × x⁵.",
+      "solution": "x³ × x⁵ = x⁸."
+    },
+    "note": "Applicable only when the bases are the same."
+  },
+  {
+    "id": "quotient-of-powers",
+    "category": "Law",
+    "title": "Quotient of Powers",
+    "formula": "aᵐ / aⁿ = aᵐ⁻ⁿ",
+    "latex": "\\frac{a^m}{a^n}=a^{m-n}",
+    "description": "When dividing powers with the same base, subtract the exponents.",
+    "variables": [
+      { "symbol": "a", "meaning": "Base" },
+      { "symbol": "m", "meaning": "Numerator Exponent" },
+      { "symbol": "n", "meaning": "Denominator Exponent" }
+    ],
+    "example": {
+      "question": "Simplify y⁷ / y³.",
+      "solution": "y⁷ / y³ = y⁴."
+    },
+    "note": "The base must be non-zero."
+  },
+  {
+    "id": "power-of-power",
+    "category": "Law",
+    "title": "Power of a Power",
+    "formula": "(aᵐ)ⁿ = aᵐⁿ",
+    "latex": "(a^m)^n=a^{mn}",
+    "description": "Multiply the exponents when a power is raised to another power.",
+    "variables": [
+      { "symbol": "a", "meaning": "Base" },
+      { "symbol": "m", "meaning": "Inner Exponent" },
+      { "symbol": "n", "meaning": "Outer Exponent" }
+    ],
+    "example": {
+      "question": "Simplify (x²)³.",
+      "solution": "(x²)³ = x⁶."
+    },
+    "note": "Multiply the exponents, do not add them."
+  },
+  {
+    "id": "negative-index",
+    "category": "Law",
+    "title": "Negative Index",
+    "formula": "a⁻ⁿ = 1/aⁿ",
+    "latex": "a^{-n}=\\frac1{a^n}",
+    "description": "A negative exponent represents the reciprocal of the positive exponent.",
+    "variables": [
+      { "symbol": "a", "meaning": "Base" },
+      { "symbol": "n", "meaning": "Exponent" }
+    ],
+    "example": {
+      "question": "Simplify 2⁻³.",
+      "solution": "2⁻³ = 1/8."
+    },
+    "note": "A negative exponent never makes the value negative."
+  },
+  {
+    "id": "zero-index",
+    "category": "Law",
+    "title": "Zero Index",
+    "formula": "a⁰ = 1",
+    "latex": "a^0=1",
+    "description": "Any non-zero number raised to the power zero equals one.",
+    "variables": [{ "symbol": "a", "meaning": "Non-zero Base" }],
+    "example": {
+      "question": "Find 9⁰.",
+      "solution": "9⁰ = 1."
+    },
+    "note": "0⁰ is undefined."
+  },
+  {
+    "id": "fractional-index",
+    "category": "Law",
+    "title": "Fractional Index",
+    "formula": "a¹⁄ⁿ = ⁿ√a",
+    "latex": "a^{1/n}=\\sqrt[n]{a}",
+    "description": "A fractional exponent represents a root.",
+    "variables": [
+      { "symbol": "a", "meaning": "Base" },
+      { "symbol": "n", "meaning": "Root Index" }
+    ],
+    "example": {
+      "question": "Evaluate 64¹⁄³.",
+      "solution": "64¹⁄³ = 4."
+    },
+    "note": "The denominator represents the root."
+  },
+  {
+    "id": "square-root-property",
+    "category": "Property",
+    "title": "Product of Square Roots",
+    "formula": "√a × √b = √ab",
+    "latex": "\\sqrt a\\times\\sqrt b=\\sqrt{ab}",
+    "description": "The product of two square roots equals the square root of the product.",
+    "variables": [
+      { "symbol": "a", "meaning": "First Number" },
+      { "symbol": "b", "meaning": "Second Number" }
+    ],
+    "example": {
+      "question": "Simplify √5 × √20.",
+      "solution": "√100 = 10."
+    },
+    "note": "Applicable for non-negative values."
+  },
+  {
+    "id": "rationalization",
+    "category": "Surds",
+    "title": "Rationalization",
+    "formula": "1/√a = √a/a",
+    "latex": "\\frac1{\\sqrt a}=\\frac{\\sqrt a}{a}",
+    "description": "Removes the surd from the denominator.",
+    "variables": [{ "symbol": "a", "meaning": "Positive Number" }],
+    "example": {
+      "question": "Rationalize 1/√5.",
+      "solution": "√5/5."
+    },
+    "note": "Multiply numerator and denominator by the same surd."
+  }
+]

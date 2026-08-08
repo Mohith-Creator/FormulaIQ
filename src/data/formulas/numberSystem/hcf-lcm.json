@@ -1,0 +1,82 @@
+[
+  {
+    "id": "hcf-definition",
+    "category": "Definition",
+    "title": "Highest Common Factor",
+    "formula": "HCF = Greatest Common Divisor",
+    "latex": "\\mathrm{HCF}",
+    "description": "The greatest positive number that divides two or more numbers exactly.",
+    "variables": [
+      {
+        "symbol": "HCF",
+        "meaning": "Highest Common Factor"
+      }
+    ],
+    "example": {
+      "question": "Find the HCF of 12 and 18.",
+      "solution": "Common factors are 1, 2, 3, 6. Therefore HCF = 6."
+    },
+    "note": "Also called GCD."
+  },
+  {
+    "id": "lcm-definition",
+    "category": "Definition",
+    "title": "Least Common Multiple",
+    "formula": "LCM = Smallest Common Multiple",
+    "latex": "\\mathrm{LCM}",
+    "description": "The smallest positive multiple common to two or more numbers.",
+    "variables": [
+      {
+        "symbol": "LCM",
+        "meaning": "Least Common Multiple"
+      }
+    ],
+    "example": {
+      "question": "Find the LCM of 12 and 18.",
+      "solution": "The smallest common multiple is 36."
+    },
+    "note": "LCM is always greater than or equal to the larger number."
+  },
+  {
+    "id": "hcf-lcm-product",
+    "category": "Formula",
+    "title": "Relation Between HCF and LCM",
+    "formula": "HCF × LCM = Product of Two Numbers",
+    "latex": "\\mathrm{HCF}\\times\\mathrm{LCM}=a\\times b",
+    "description": "Relates the HCF and LCM of two numbers.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Number"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Number"
+      }
+    ],
+    "example": {
+      "question": "The HCF of two numbers is 6 and their LCM is 72. If one number is 18, find the other.",
+      "solution": "Other number = (6×72)/18 = 24."
+    },
+    "note": "Applicable only for two numbers."
+  },
+  {
+    "id": "prime-factorization-method",
+    "category": "Method",
+    "title": "Prime Factorization Method",
+    "formula": "Express numbers as product of prime factors",
+    "latex": "\\text{Prime Factorization}",
+    "description": "Find HCF using common prime factors and LCM using all prime factors.",
+    "variables": [
+      {
+        "symbol": "Prime Factors",
+        "meaning": "Prime Divisors"
+      }
+    ],
+    "example": {
+      "question": "Find the HCF and LCM of 24 and 36.",
+      "solution": "24=2³×3, 36=2²×3². HCF=12, LCM=72."
+    },
+    "note": "The most reliable method for competitive exams."
+  }
+]

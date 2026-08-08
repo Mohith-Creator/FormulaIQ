@@ -1,0 +1,132 @@
+[
+  {
+    "id": "cube-volume",
+    "category": "volume",
+    "title": "Volume of Cube",
+    "formula": "V = a³",
+    "latex": "V=a^3",
+    "description": "Calculates the volume of a cube using the length of one side.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side Length"
+      }
+    ],
+    "example": {
+      "question": "Find the volume of a cube with side 6 cm.",
+      "solution": "V = 6³ = 216 cm³"
+    },
+    "note": "A cube has equal length, width, and height."
+  },
+  {
+    "id": "cuboid-volume",
+    "category": "volume",
+    "title": "Volume of Cuboid",
+    "formula": "V = l × b × h",
+    "latex": "V=lbh",
+    "description": "Calculates the volume of a cuboid using its length, breadth, and height.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the volume of a cuboid with length 10 cm, breadth 6 cm and height 8 cm.",
+      "solution": "V = 10 × 6 × 8 = 480 cm³"
+    },
+    "note": "Volume is the product of length, breadth, and height."
+  },
+  {
+    "id": "cylinder-volume",
+    "category": "volume",
+    "title": "Volume of Cylinder",
+    "formula": "V = πr²h",
+    "latex": "V=\\pi r^2h",
+    "description": "Calculates the volume of a cylinder using its radius and height.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the volume of a cylinder with radius 7 cm and height 10 cm.",
+      "solution": "V = π × 7² × 10 = 490π ≈ 1539.38 cm³"
+    },
+    "note": "Volume equals the area of the circular base multiplied by the height."
+  },
+  {
+    "id": "cone-volume",
+    "category": "volume",
+    "title": "Volume of Cone",
+    "formula": "V = (1/3)πr²h",
+    "latex": "V=\\frac{1}{3}\\pi r^2h",
+    "description": "Calculates the volume of a cone using its radius and perpendicular height.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Perpendicular Height"
+      }
+    ],
+    "example": {
+      "question": "Find the volume of a cone with radius 7 cm and height 12 cm.",
+      "solution": "V = (1/3) × π × 7² × 12 = 196π ≈ 615.75 cm³"
+    },
+    "note": "A cone has one-third the volume of a cylinder with the same base and height."
+  },
+  {
+    "id": "sphere-volume",
+    "category": "volume",
+    "title": "Volume of Sphere",
+    "formula": "V = (4/3)πr³",
+    "latex": "V=\\frac{4}{3}\\pi r^3",
+    "description": "Calculates the volume of a sphere using its radius.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the volume of a sphere with radius 7 cm.",
+      "solution": "V = (4/3) × π × 7³ = (1372/3)π ≈ 1436.76 cm³"
+    },
+    "note": "All points on the surface of a sphere are equidistant from its center."
+  },
+  {
+    "id": "hemisphere-volume",
+    "category": "volume",
+    "title": "Volume of Hemisphere",
+    "formula": "V = (2/3)πr³",
+    "latex": "V=\\frac{2}{3}\\pi r^3",
+    "description": "Calculates the volume of a hemisphere using its radius.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the volume of a hemisphere with radius 7 cm.",
+      "solution": "V = (2/3) × π × 7³ = (686/3)π ≈ 718.38 cm³"
+    },
+    "note": "A hemisphere has exactly half the volume of a sphere with the same radius."
+  }
+]

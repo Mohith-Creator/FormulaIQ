@@ -1,0 +1,234 @@
+[
+  {
+    "id": "distance-formula",
+    "category": "Formula",
+    "title": "Distance between two points",
+    "formula": "d = √[(x₂-x₁)² + (y₂-y₁)²]",
+    "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}",
+    "description": "Calculates the distance between two points in a coordinate plane.",
+    "variables": [
+      { "symbol": "(x₁,y₁)", "meaning": "First Point" },
+      { "symbol": "(x₂,y₂)", "meaning": "Second Point" }
+    ],
+    "example": {
+      "question": "Find the distance between (2,3) and (6,6).",
+      "solution": "√[(6−2)²+(6−3)²] = √25 = 5."
+    },
+    "note": "Derived using the Pythagoras theorem."
+  },
+  {
+    "id": "midpoint-formula",
+    "category": "Formula",
+    "title": "Midpoint Formula",
+    "formula": "M=((x₁+x₂)/2,(y₁+y₂)/2)",
+    "latex": "M\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)",
+    "description": "Finds the midpoint of a line segment joining two points.",
+    "variables": [
+      { "symbol": "(x₁,y₁)", "meaning": "First Point" },
+      { "symbol": "(x₂,y₂)", "meaning": "Second Point" }
+    ],
+    "example": {
+      "question": "Find the midpoint of (2,4) and (8,10).",
+      "solution": "((2+8)/2,(4+10)/2)=(5,7)."
+    },
+    "note": "The midpoint divides the line segment into two equal parts."
+  },
+  {
+    "id": "section-formula",
+    "category": "Formula",
+    "title": "Section Formula",
+    "formula": "P=((mx₂+nx₁)/(m+n),(my₂+ny₁)/(m+n))",
+    "latex": "P\\left(\\frac{mx_2+nx_1}{m+n},\\frac{my_2+ny_1}{m+n}\\right)",
+    "description": "Finds the coordinates of a point dividing a line segment internally in the ratio m:n.",
+    "variables": [{ "symbol": "m:n", "meaning": "Ratio" }],
+    "example": {
+      "question": "Find the point dividing (1,2) and (7,8) in the ratio 1:2.",
+      "solution": "((1×7+2×1)/3,(1×8+2×2)/3)=(3,4)."
+    },
+    "note": "Applies to internal division."
+  },
+  {
+    "id": "centroid-formula",
+    "category": "Formula",
+    "title": "Centroid of Triangle",
+    "formula": "G=((x₁+x₂+x₃)/3,(y₁+y₂+y₃)/3)",
+    "latex": "G\\left(\\frac{x_1+x_2+x_3}{3},\\frac{y_1+y_2+y_3}{3}\\right)",
+    "description": "Finds the centroid of a triangle using the coordinates of its vertices.",
+    "variables": [
+      { "symbol": "(x₁,y₁)", "meaning": "Vertex A" },
+      { "symbol": "(x₂,y₂)", "meaning": "Vertex B" },
+      { "symbol": "(x₃,y₃)", "meaning": "Vertex C" }
+    ],
+    "example": {
+      "question": "Find the centroid of (0,0), (6,0), (3,6).",
+      "solution": "(3,2)."
+    },
+    "note": "The centroid is the intersection point of the medians."
+  },
+  {
+    "id": "area-coordinate-triangle",
+    "category": "Area",
+    "title": "Area of Triangle",
+    "formula": "A = ½|x₁(y₂-y₃)+x₂(y₃-y₁)+x₃(y₁-y₂)|",
+    "latex": "A=\\frac12\\left|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)\\right|",
+    "description": "Calculates the area of a triangle using coordinates.",
+    "variables": [
+      { "symbol": "(x₁,y₁)", "meaning": "Vertex A" },
+      { "symbol": "(x₂,y₂)", "meaning": "Vertex B" },
+      { "symbol": "(x₃,y₃)", "meaning": "Vertex C" }
+    ],
+    "example": {
+      "question": "Find the area of the triangle with vertices (0,0), (4,0), (0,3).",
+      "solution": "Area = 6 square units."
+    },
+    "note": "If the area is zero, the points are collinear."
+  },
+  {
+    "id": "slope-formula",
+    "category": "Formula",
+    "title": "Slope of a Line",
+    "formula": "m = (y₂-y₁)/(x₂-x₁)",
+    "latex": "m=\\frac{y_2-y_1}{x_2-x_1}",
+    "description": "Calculates the slope (gradient) of a line joining two points.",
+    "variables": [{ "symbol": "m", "meaning": "Slope" }],
+    "example": {
+      "question": "Find the slope of the line joining (2,1) and (6,9).",
+      "solution": "(9−1)/(6−2)=2."
+    },
+    "note": "Vertical lines have an undefined slope."
+  },
+  {
+    "id": "distance-point-line",
+    "category": "Formula",
+    "title": "Distance of a Point from a Line",
+    "formula": "d = |Ax₁ + By₁ + C| / √(A² + B²)",
+    "latex": "d=\\frac{|Ax_1+By_1+C|}{\\sqrt{A^2+B^2}}",
+    "description": "Calculates the perpendicular distance from a point to a straight line.",
+    "variables": [
+      {
+        "symbol": "A, B, C",
+        "meaning": "Constants in the line Ax + By + C = 0"
+      },
+      {
+        "symbol": "(x₁,y₁)",
+        "meaning": "Coordinates of the point"
+      }
+    ],
+    "example": {
+      "question": "Find the distance of point (2,3) from the line 3x + 4y - 10 = 0.",
+      "solution": "|3(2)+4(3)-10|/√(3²+4²)=8/5=1.6 units."
+    },
+    "note": "The line must be written in the form Ax + By + C = 0."
+  },
+  {
+    "id": "equation-circle",
+    "category": "Equation",
+    "title": "Equation of a Circle",
+    "formula": "(x-h)² + (y-k)² = r²",
+    "latex": "(x-h)^2+(y-k)^2=r^2",
+    "description": "Represents a circle with centre (h,k) and radius r.",
+    "variables": [
+      {
+        "symbol": "(h,k)",
+        "meaning": "Centre of the circle"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Write the equation of a circle with centre (2,-1) and radius 5.",
+      "solution": "(x-2)² + (y+1)² = 25."
+    },
+    "note": "If the centre is at the origin, the equation becomes x² + y² = r²."
+  },
+  {
+    "id": "equation-sphere",
+    "category": "Equation",
+    "title": "Equation of a Sphere",
+    "formula": "(x-h)² + (y-k)² + (z-l)² = r²",
+    "latex": "(x-h)^2+(y-k)^2+(z-l)^2=r^2",
+    "description": "Represents a sphere with centre (h,k,l) and radius r.",
+    "variables": [
+      {
+        "symbol": "(h,k,l)",
+        "meaning": "Centre of the sphere"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Write the equation of a sphere with centre (1,2,3) and radius 4.",
+      "solution": "(x-1)²+(y-2)²+(z-3)²=16."
+    },
+    "note": "If the centre is at the origin, the equation becomes x²+y²+z²=r²."
+  },
+  {
+    "id": "pair-straight-lines",
+    "category": "Properties",
+    "title": "Pair of Straight Lines",
+    "formula": "a₁x+b₁y+c₁=0, a₂x+b₂y+c₂=0",
+    "latex": "a_1x+b_1y+c_1=0,\\;a_2x+b_2y+c_2=0",
+    "description": "Conditions for determining the nature of two straight lines.",
+    "variables": [
+      {
+        "symbol": "a₁,b₁,c₁",
+        "meaning": "Coefficients of first line"
+      },
+      {
+        "symbol": "a₂,b₂,c₂",
+        "meaning": "Coefficients of second line"
+      }
+    ],
+    "example": {
+      "question": "Determine the nature of the pair of lines using coefficient ratios.",
+      "solution": "Compare a₁/a₂, b₁/b₂ and c₁/c₂."
+    },
+    "note": "Compare the ratios of coefficients to identify the relationship between the lines."
+  },
+  {
+    "id": "intersecting-lines-condition",
+    "category": "Properties",
+    "title": "Condition for Intersecting Lines",
+    "formula": "a₁/a₂ ≠ b₁/b₂",
+    "latex": "\\frac{a_1}{a_2}\\neq\\frac{b_1}{b_2}",
+    "description": "If the ratios of coefficients of x and y are different, the two lines intersect at exactly one point.",
+    "variables": [],
+    "example": {
+      "question": "When do two straight lines intersect?",
+      "solution": "When a₁/a₂ ≠ b₁/b₂."
+    },
+    "note": "Intersecting lines have a unique solution."
+  },
+  {
+    "id": "coincident-lines-condition",
+    "category": "Properties",
+    "title": "Condition for Coincident Lines",
+    "formula": "a₁/a₂ = b₁/b₂ = c₁/c₂",
+    "latex": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}=\\frac{c_1}{c_2}",
+    "description": "If all three ratios are equal, both equations represent the same line.",
+    "variables": [],
+    "example": {
+      "question": "When do two lines coincide?",
+      "solution": "When all three coefficient ratios are equal."
+    },
+    "note": "Coincident lines have infinitely many solutions."
+  },
+  {
+    "id": "parallel-lines-condition",
+    "category": "Properties",
+    "title": "Condition for Parallel Lines",
+    "formula": "a₁/a₂ = b₁/b₂ ≠ c₁/c₂",
+    "latex": "\\frac{a_1}{a_2}=\\frac{b_1}{b_2}\\neq\\frac{c_1}{c_2}",
+    "description": "If the ratios of x and y coefficients are equal but the constant ratios are different, the lines are parallel.",
+    "variables": [],
+    "example": {
+      "question": "When are two lines parallel?",
+      "solution": "When a₁/a₂ = b₁/b₂ ≠ c₁/c₂."
+    },
+    "note": "Parallel lines never intersect and have no solution."
+  }
+]

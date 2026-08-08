@@ -1,0 +1,105 @@
+[
+  {
+    "id": "standard-form-quadratic",
+    "category": "Equation",
+    "title": "Standard Form",
+    "formula": "ax² + bx + c = 0",
+    "latex": "ax^2+bx+c=0",
+    "description": "Represents a quadratic equation where a ≠ 0.",
+    "variables": [
+      { "symbol": "a", "meaning": "Coefficient of x²" },
+      { "symbol": "b", "meaning": "Coefficient of x" },
+      { "symbol": "c", "meaning": "Constant" }
+    ],
+    "example": {
+      "question": "Identify a, b and c in 2x² + 5x − 3 = 0.",
+      "solution": "a = 2, b = 5, c = -3."
+    },
+    "note": "The coefficient of x² cannot be zero."
+  },
+  {
+    "id": "quadratic-formula",
+    "category": "Formula",
+    "title": "Quadratic Formula",
+    "formula": "x = (-b ± √(b² − 4ac)) / 2a",
+    "latex": "x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}",
+    "description": "Finds the roots of any quadratic equation.",
+    "variables": [
+      { "symbol": "a", "meaning": "Coefficient of x²" },
+      { "symbol": "b", "meaning": "Coefficient of x" },
+      { "symbol": "c", "meaning": "Constant" }
+    ],
+    "example": {
+      "question": "Find the roots of x² − 5x + 6 = 0.",
+      "solution": "x = (5 ± √25−24)/2 = (5 ±1)/2 ⇒ x = 2, 3."
+    },
+    "note": "Works for every quadratic equation."
+  },
+  {
+    "id": "discriminant",
+    "category": "Formula",
+    "title": "Discriminant",
+    "formula": "D = b² − 4ac",
+    "latex": "D=b^2-4ac",
+    "description": "Determines the nature of the roots.",
+    "variables": [
+      { "symbol": "D", "meaning": "Discriminant" },
+      { "symbol": "a", "meaning": "Coefficient of x²" },
+      { "symbol": "b", "meaning": "Coefficient of x" },
+      { "symbol": "c", "meaning": "Constant" }
+    ],
+    "example": {
+      "question": "Find the discriminant of x² − 4x + 3 = 0.",
+      "solution": "D = (-4)² − 4×1×3 = 4."
+    },
+    "note": "The discriminant decides the type of roots."
+  },
+  {
+    "id": "nature-of-roots",
+    "category": "Roots",
+    "title": "Nature of Roots",
+    "formula": "D>0, D=0, D<0",
+    "latex": "D>0,\\;D=0,\\;D<0",
+    "description": "Shows the relationship between the discriminant and the roots.",
+    "variables": [{ "symbol": "D", "meaning": "Discriminant" }],
+    "example": {
+      "question": "If D = 0, what type of roots are obtained?",
+      "solution": "Two equal real roots."
+    },
+    "note": "Positive → distinct, Zero → equal, Negative → imaginary."
+  },
+  {
+    "id": "sum-of-roots",
+    "category": "Roots",
+    "title": "Sum of Roots",
+    "formula": "α + β = −b/a",
+    "latex": "\\alpha+\\beta=-\\frac{b}{a}",
+    "description": "Finds the sum of the roots without solving the equation.",
+    "variables": [
+      { "symbol": "α", "meaning": "First Root" },
+      { "symbol": "β", "meaning": "Second Root" }
+    ],
+    "example": {
+      "question": "Find the sum of roots of x² − 7x + 10 = 0.",
+      "solution": "α + β = 7."
+    },
+    "note": "Useful in Vieta's formulas."
+  },
+  {
+    "id": "product-of-roots",
+    "category": "Roots",
+    "title": "Product of Roots",
+    "formula": "αβ = c/a",
+    "latex": "\\alpha\\beta=\\frac{c}{a}",
+    "description": "Finds the product of the roots without solving the equation.",
+    "variables": [
+      { "symbol": "α", "meaning": "First Root" },
+      { "symbol": "β", "meaning": "Second Root" }
+    ],
+    "example": {
+      "question": "Find the product of roots of x² − 7x + 10 = 0.",
+      "solution": "αβ = 10."
+    },
+    "note": "Useful in factorization and Vieta's formulas."
+  }
+]

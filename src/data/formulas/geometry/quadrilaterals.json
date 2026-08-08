@@ -1,0 +1,166 @@
+[
+  {
+    "id": "quadrilateral-angle-sum",
+    "category": "Property",
+    "title": "Angle Sum Property",
+    "formula": "A+B+C+D=360°",
+    "latex": "A+B+C+D=360^\\circ",
+    "description": "The sum of interior angles of a quadrilateral is 360°.",
+    "variables": [
+      {
+        "symbol": "A,B,C,D",
+        "meaning": "Interior Angles"
+      }
+    ],
+    "example": {
+      "question": "Three angles are 80°,95°,100°. Find the fourth.",
+      "solution": "360−275=85°."
+    },
+    "note": "Applies to every quadrilateral."
+  },
+  {
+    "id": "rectangle-area",
+    "category": "Area",
+    "title": "Area of Rectangle",
+    "formula": "A=lb",
+    "latex": "A=lb",
+    "description": "Calculates the area of a rectangle.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a rectangle with length 10 cm and breadth 6 cm.",
+      "solution": "60 cm²."
+    },
+    "note": "Area = length × breadth."
+  },
+  {
+    "id": "rectangle-perimeter",
+    "category": "Perimeter",
+    "title": "Perimeter of Rectangle",
+    "formula": "P=2(l+b)",
+    "latex": "P=2(l+b)",
+    "description": "Calculates the perimeter of a rectangle.",
+    "variables": [
+      {
+        "symbol": "l,b",
+        "meaning": "Dimensions"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a rectangle with length 10 cm and breadth 5 cm.",
+      "solution": "30 cm."
+    },
+    "note": "Add all four sides."
+  },
+  {
+    "id": "square-area",
+    "category": "Area",
+    "title": "Area of Square",
+    "formula": "A=a²",
+    "latex": "A=a^2",
+    "description": "Calculates the area of a square.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side Length"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a square with side 12 cm.",
+      "solution": "144 cm²."
+    },
+    "note": "All sides are equal."
+  },
+  {
+    "id": "square-perimeter",
+    "category": "Perimeter",
+    "title": "Perimeter of Square",
+    "formula": "P=4a",
+    "latex": "P=4a",
+    "description": "Calculates the perimeter of a square.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side Length"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a square with side 9 cm.",
+      "solution": "36 cm."
+    },
+    "note": "Four equal sides."
+  },
+  {
+    "id": "parallelogram-area",
+    "category": "Area",
+    "title": "Area of Parallelogram",
+    "formula": "A=bh",
+    "latex": "A=bh",
+    "description": "Calculates the area of a parallelogram.",
+    "variables": [
+      {
+        "symbol": "b",
+        "meaning": "Base"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a parallelogram with base 12 cm and height 7 cm.",
+      "solution": "84 cm²."
+    },
+    "note": "Height must be perpendicular to the base."
+  },
+  {
+    "id": "rhombus-area",
+    "category": "Area",
+    "title": "Area of Rhombus",
+    "formula": "A=(d₁d₂)/2",
+    "latex": "A=\\frac{d_1d_2}{2}",
+    "description": "Calculates the area using diagonals.",
+    "variables": [
+      {
+        "symbol": "d₁,d₂",
+        "meaning": "Diagonals"
+      }
+    ],
+    "example": {
+      "question": "Diagonals are 12 cm and 16 cm.",
+      "solution": "96 cm²."
+    },
+    "note": "Diagonals are perpendicular."
+  },
+  {
+    "id": "trapezium-area",
+    "category": "Area",
+    "title": "Area of Trapezium",
+    "formula": "A=½(a+b)h",
+    "latex": "A=\\frac12(a+b)h",
+    "description": "Calculates the area of a trapezium.",
+    "variables": [
+      {
+        "symbol": "a,b",
+        "meaning": "Parallel Sides"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Parallel sides are 10 cm and 14 cm with height 8 cm.",
+      "solution": "96 cm²."
+    },
+    "note": "Average of parallel sides × height."
+  }
+]

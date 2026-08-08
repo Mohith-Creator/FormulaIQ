@@ -1,0 +1,37 @@
+[
+  {
+    "id": "squares",
+    "title": "Squares",
+    "subtitle": "Perfect squares from 1 to 100",
+    "image": "squares",
+    "category": "Basics"
+  },
+  {
+    "id": "cubes",
+    "title": "Cubes",
+    "subtitle": "Perfect cubes from 1 to 100",
+    "image": "cubes",
+    "category": "Basics"
+  },
+  {
+    "id": "prime-numbers",
+    "title": "Prime Numbers",
+    "subtitle": "Prime numbers from 1 to 1000",
+    "image": "prime",
+    "category": "Mathematics"
+  },
+  {
+    "id": "standard-angles",
+    "title": "Standard Angles",
+    "subtitle": "Common trigonometric angles",
+    "image": "angles",
+    "category": "Trigonometry"
+  },
+  {
+    "id": "trigonometric-values",
+    "title": "Trigonometric Values",
+    "subtitle": "sin, cos, tan and cot values",
+    "image": "trigonometry",
+    "category": "Trigonometry"
+  }
+]

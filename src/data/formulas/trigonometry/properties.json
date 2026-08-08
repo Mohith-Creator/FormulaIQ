@@ -1,0 +1,97 @@
+[
+  {
+    "id": "complementary-sine-cosine",
+    "category": "Property",
+    "title": "Complementary Property of sin and cos",
+    "formula": "sin(90° − θ) = cos θ",
+    "latex": "\\sin(90^\\circ-\\theta)=\\cos\\theta",
+    "description": "The sine of the complement of an angle is equal to the cosine of the angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Find sin 60° using the complementary property.",
+      "solution": "sin 60° = cos 30° = √3/2."
+    },
+    "note": "Useful for converting sine into cosine."
+  },
+  {
+    "id": "complementary-cosine-sine",
+    "category": "Property",
+    "title": "Complementary Property of cos and sin",
+    "formula": "cos(90° − θ) = sin θ",
+    "latex": "\\cos(90^\\circ-\\theta)=\\sin\\theta",
+    "description": "The cosine of the complement of an angle is equal to the sine of the angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Find cos 30° using the complementary property.",
+      "solution": "cos 30° = sin 60° = √3/2."
+    },
+    "note": "Frequently used in competitive exams."
+  },
+  {
+    "id": "complementary-tangent-cotangent",
+    "category": "Property",
+    "title": "Complementary Property of tan and cot",
+    "formula": "tan(90° − θ) = cot θ",
+    "latex": "\\tan(90^\\circ-\\theta)=\\cot\\theta",
+    "description": "The tangent of the complement of an angle is equal to the cotangent of the angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Find tan 30° using the complementary property.",
+      "solution": "tan 30° = cot 60° = 1/√3."
+    },
+    "note": "Useful for simplifying trigonometric expressions."
+  },
+  {
+    "id": "negative-angle-property",
+    "category": "Property",
+    "title": "Negative Angle Properties",
+    "formula": "sin(-θ)=-sinθ, cos(-θ)=cosθ, tan(-θ)=-tanθ",
+    "latex": "\\sin(-\\theta)=-\\sin\\theta,\\;\\cos(-\\theta)=\\cos\\theta,\\;\\tan(-\\theta)=-\\tan\\theta",
+    "description": "Shows how trigonometric functions behave for negative angles.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Find sin(-30°), cos(-60°) and tan(-45°).",
+      "solution": "sin(-30°) = -1/2, cos(-60°) = 1/2, tan(-45°) = -1."
+    },
+    "note": "Sine and tangent are odd functions, while cosine is an even function."
+  },
+  {
+    "id": "periodicity-property",
+    "category": "Property",
+    "title": "Periodicity of Trigonometric Functions",
+    "formula": "sin(θ+360°)=sinθ, cos(θ+360°)=cosθ, tan(θ+180°)=tanθ",
+    "latex": "\\sin(\\theta+360^\\circ)=\\sin\\theta,\\;\\cos(\\theta+360^\\circ)=\\cos\\theta,\\;\\tan(\\theta+180^\\circ)=\\tan\\theta",
+    "description": "Trigonometric functions repeat their values after a fixed interval called the period.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "Find sin 390° and tan 225°.",
+      "solution": "sin 390° = sin 30° = 1/2, tan 225° = tan 45° = 1."
+    },
+    "note": "The period of sine and cosine is 360°, while the period of tangent is 180°."
+  }
+]

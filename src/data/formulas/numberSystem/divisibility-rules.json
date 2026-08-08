@@ -1,0 +1,173 @@
+[
+  {
+    "id": "divisibility-by-2",
+    "category": "Rule",
+    "title": "Divisibility by 2",
+    "formula": "Last digit is divisible by 2",
+    "latex": "\\text{Last digit is }0,2,4,6,8",
+    "description": "A number is divisible by 2 if its last digit is even.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 428 divisible by 2?",
+      "solution": "The last digit is 8, so 428 is divisible by 2."
+    },
+    "note": "Even numbers are always divisible by 2."
+  },
+  {
+    "id": "divisibility-by-3",
+    "category": "Rule",
+    "title": "Divisibility by 3",
+    "formula": "Sum of digits is divisible by  3",
+    "latex": "\\sum digits\\equiv0\\pmod3",
+    "description": "A number is divisible by 3 if the sum of its digits is divisible by 3.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 534 divisible by 3?",
+      "solution": "5+3+4=12, which is divisible by 3. Hence 534 is divisible by 3."
+    },
+    "note": "Only the sum of digits matters."
+  },
+  {
+    "id": "divisibility-by-4",
+    "category": "Rule",
+    "title": "Divisibility by 4",
+    "formula": "Last two digits are divisible by 4",
+    "latex": "\\text{Last two digits divisible by }4",
+    "description": "A number is divisible by 4 if the number formed by its last two digits is divisible by 4.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 2316 divisible by 4?",
+      "solution": "Last two digits are 16, which is divisible by 4."
+    },
+    "note": "Ignore all digits except the last two."
+  },
+  {
+    "id": "divisibility-by-5",
+    "category": "Rule",
+    "title": "Divisibility by 5",
+    "formula": "Last digit is 0 or 5",
+    "latex": "\\text{Last digit }=0\\text{ or }5",
+    "description": "A number is divisible by 5 if it ends in 0 or 5.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 925 divisible by 5?",
+      "solution": "The last digit is 5, so it is divisible by 5."
+    },
+    "note": "This is one of the easiest divisibility rules."
+  },
+  {
+    "id": "divisibility-by-6",
+    "category": "Rule",
+    "title": "Divisibility by 6",
+    "formula": "Divisible by both 2 and 3",
+    "latex": "2\\mid n\\;\\text{and}\\;3\\mid n",
+    "description": "A number is divisible by 6 if it is divisible by both 2 and 3.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 234 divisible by 6?",
+      "solution": "It is even and 2+3+4=9 is divisible by 3. Hence divisible by 6."
+    },
+    "note": "Check divisibility by 2 and 3 together."
+  },
+  {
+    "id": "divisibility-by-8",
+    "category": "Rule",
+    "title": "Divisibility by 8",
+    "formula": "Last three digits are divisible by 8",
+    "latex": "\\text{Last three digits divisible by }8",
+    "description": "A number is divisible by 8 if the number formed by its last three digits is divisible by 8.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 4120 divisible by 8?",
+      "solution": "120 is divisible by 8, so the number is divisible by 8."
+    },
+    "note": "Ignore all digits except the last three."
+  },
+  {
+    "id": "divisibility-by-9",
+    "category": "Rule",
+    "title": "Divisibility by 9",
+    "formula": "Sum of digits is divisible by 9",
+    "latex": "\\sum digits\\equiv0\\pmod9",
+    "description": "A number is divisible by 9 if the sum of its digits is divisible by 9.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 729 divisible by 9?",
+      "solution": "7+2+9=18, which is divisible by 9."
+    },
+    "note": "Similar to the rule for 3."
+  },
+  {
+    "id": "divisibility-by-10",
+    "category": "Rule",
+    "title": "Divisibility by 10",
+    "formula": "Last digit is 0",
+    "latex": "\\text{Last digit }=0",
+    "description": "A number is divisible by 10 if it ends in 0.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 950 divisible by 10?",
+      "solution": "The last digit is 0, so it is divisible by 10."
+    },
+    "note": "Every multiple of 10 ends with zero."
+  },
+  {
+    "id": "divisibility-by-11",
+    "category": "Rule",
+    "title": "Divisibility by 11",
+    "formula": "Difference of alternate digit sums is divisible by 11",
+    "latex": "|(a+c+...) - (b+d+...)|",
+    "description": "A number is divisible by 11 if the difference between the sums of alternate digits is 0 or a multiple of 11.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Whole Number"
+      }
+    ],
+    "example": {
+      "question": "Is 121 divisible by 11?",
+      "solution": "(1+1)-2=0, therefore it is divisible by 11."
+    },
+    "note": "Use alternating digit sums."
+  }
+]

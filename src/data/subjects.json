@@ -1,0 +1,67 @@
+[
+  {
+    "id": "algebra",
+    "title": "Algebra",
+    "subtitle": "All algebra formulas",
+    "description": "Master algebraic expressions, identities and equations.",
+    "theme": {
+      "primary": "#2563EB",
+      "light": "#DBEAFE"
+    },
+    "homeIcon": "algebra-white",
+    "headerIcon": "algebra",
+    "chaptersFile": "algebra"
+  },
+  {
+    "id": "geometry",
+    "title": "Geometry",
+    "subtitle": "All geometry formulas",
+    "description": "Learn shapes, angles and geometric properties.",
+    "theme": {
+      "primary": "#10B981",
+      "light": "#D1FAE5"
+    },
+    "homeIcon": "geometry-white",
+    "headerIcon": "geometry",
+    "chaptersFile": "geometry"
+  },
+  {
+    "id": "mensuration",
+    "title": "Mensuration",
+    "subtitle": "Area, Volume & More",
+    "description": "Area, perimeter, surface area and volume formulas.",
+    "theme": {
+      "primary": "#F97316",
+      "light": "#FFEDD5"
+    },
+    "homeIcon": "mensuration-white",
+    "headerIcon": "mensuration",
+    "chaptersFile": "mensuration"
+  },
+  {
+    "id": "trigonometry",
+    "title": "Trigonometry",
+    "subtitle": "All trigonometry formulas",
+    "description": "Angles, ratios and trigonometric identities.",
+    "theme": {
+      "primary": "#8B5CF6",
+      "light": "#EDE9FE"
+    },
+    "homeIcon": "trigonometry-white",
+    "headerIcon": "trigonometry",
+    "chaptersFile": "trigonometry"
+  },
+  {
+    "id": "numberSystem",
+    "title": "Number System",
+    "subtitle": "Useful number formulas",
+    "description": "Properties, divisibility, fractions and decimals.",
+    "theme": {
+      "primary": "#F59E0B",
+      "light": "#FEF3C7"
+    },
+    "homeIcon": "numbers-white",
+    "headerIcon": "numbers",
+    "chaptersFile": "numberSystem"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "plane-figures",
+    "number": 1,
+    "title": "Plane Figures (2D)",
+    "subtitle": "All formulas for 2D shapes",
+    "illustration": "plane-figures"
+  },
+  {
+    "id": "surface-area",
+    "number": 2,
+    "title": "Surface Area",
+    "subtitle": "Surface area formulas of 3D solids",
+    "illustration": "surface-area"
+  },
+  {
+    "id": "volume",
+    "number": 3,
+    "title": "Volume",
+    "subtitle": "Volume formulas of 3D solids",
+    "illustration": "volume"
+  }
+]

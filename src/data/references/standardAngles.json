@@ -1,0 +1,19 @@
+[
+  { "id": 1, "degree": "0°", "radian": "0" },
+  { "id": 2, "degree": "30°", "radian": "π/6" },
+  { "id": 3, "degree": "45°", "radian": "π/4" },
+  { "id": 4, "degree": "60°", "radian": "π/3" },
+  { "id": 5, "degree": "90°", "radian": "π/2" },
+  { "id": 6, "degree": "120°", "radian": "2π/3" },
+  { "id": 7, "degree": "135°", "radian": "3π/4" },
+  { "id": 8, "degree": "150°", "radian": "5π/6" },
+  { "id": 9, "degree": "180°", "radian": "π" },
+  { "id": 10, "degree": "210°", "radian": "7π/6" },
+  { "id": 11, "degree": "225°", "radian": "5π/4" },
+  { "id": 12, "degree": "240°", "radian": "4π/3" },
+  { "id": 13, "degree": "270°", "radian": "3π/2" },
+  { "id": 14, "degree": "300°", "radian": "5π/3" },
+  { "id": 15, "degree": "315°", "radian": "7π/4" },
+  { "id": 16, "degree": "330°", "radian": "11π/6" },
+  { "id": 17, "degree": "360°", "radian": "2π" }
+]

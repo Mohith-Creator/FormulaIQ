@@ -1,0 +1,37 @@
+[
+  {
+    "id": "algebraic-identities",
+    "number": 1,
+    "title": "Algebraic Identities",
+    "subtitle": "Essential algebraic identities and expansions",
+    "illustration": "algebraic-identities"
+  },
+  {
+    "id": "quadratic-equations",
+    "number": 2,
+    "title": "Quadratic Equations",
+    "subtitle": "Roots, formulas and quadratic expressions",
+    "illustration": "quadratic-equations"
+  },
+  {
+    "id": "indices-surds",
+    "number": 3,
+    "title": "Indices & Surds",
+    "subtitle": "Laws of indices and surd formulas",
+    "illustration": "indices-surds"
+  },
+  {
+    "id": "progressions",
+    "number": 4,
+    "title": "Progressions",
+    "subtitle": "Arithmetic and geometric progressions",
+    "illustration": "progressions"
+  },
+  {
+    "id": "simplification",
+    "number": 5,
+    "title": "Simplification",
+    "subtitle": "Simplification shortcuts and formulas",
+    "illustration": "simplification"
+  }
+]

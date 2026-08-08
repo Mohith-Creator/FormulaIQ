@@ -1,0 +1,204 @@
+[
+  {
+    "id": "circumference-of-circle",
+    "category": "Perimeter",
+    "title": "Circumference of Circle",
+    "formula": "C = 2πr",
+    "latex": "C=2\\pi r",
+    "description": "Calculates the distance around a circle.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the circumference of a circle with radius 7 cm.",
+      "solution": "C = 2 × π × 7 = 14π ≈ 43.98 cm."
+    },
+    "note": "Also written as C = πd."
+  },
+  {
+    "id": "area-of-circle",
+    "category": "Area",
+    "title": "Area of Circle",
+    "formula": "A = πr²",
+    "latex": "A=\\pi r^2",
+    "description": "Calculates the area enclosed by a circle.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a circle with radius 7 cm.",
+      "solution": "A = π × 7² = 49π ≈ 153.94 cm²."
+    },
+    "note": "Area increases with the square of the radius."
+  },
+  {
+    "id": "diameter-radius",
+    "category": "Relation",
+    "title": "Diameter and Radius",
+    "formula": "d = 2r",
+    "latex": "d=2r",
+    "description": "Relates the diameter and radius of a circle.",
+    "variables": [
+      {
+        "symbol": "d",
+        "meaning": "Diameter"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the diameter when the radius is 9 cm.",
+      "solution": "d = 2 × 9 = 18 cm."
+    },
+    "note": "The diameter is the longest chord."
+  },
+  {
+    "id": "arc-length",
+    "category": "Arc",
+    "title": "Arc Length",
+    "formula": "L = (θ/360°) × 2πr",
+    "latex": "L=\\frac{\\theta}{360^\\circ}\\times2\\pi r",
+    "description": "Calculates the length of an arc subtended by a central angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Central Angle"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the arc length for θ = 90° and r = 14 cm.",
+      "solution": "L = (90/360) × 2π × 14 = 7π ≈ 21.99 cm."
+    },
+    "note": "The angle must be measured at the center."
+  },
+  {
+    "id": "sector-area",
+    "category": "Sector",
+    "title": "Area of Sector",
+    "formula": "A = (θ/360°) × πr²",
+    "latex": "A=\\frac{\\theta}{360^\\circ}\\pi r^2",
+    "description": "Calculates the area of a sector of a circle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Central Angle"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a 60° sector with radius 12 cm.",
+      "solution": "A = (60/360) × π × 12² = 24π ≈ 75.40 cm²."
+    },
+    "note": "A sector is a portion of a circle."
+  },
+  {
+    "id": "semicircle-area",
+    "category": "Area",
+    "title": "Area of Semicircle",
+    "formula": "A = ½πr²",
+    "latex": "A=\\frac12\\pi r^2",
+    "description": "Calculates the area of a semicircle.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a semicircle with radius 8 cm.",
+      "solution": "A = ½ × π × 8² = 32π ≈ 100.53 cm²."
+    },
+    "note": "A semicircle is half of a circle."
+  },
+  {
+    "id": "semicircle-perimeter",
+    "category": "Perimeter",
+    "title": "Perimeter of Semicircle",
+    "formula": "P = πr + 2r",
+    "latex": "P=\\pi r+2r",
+    "description": "Calculates the perimeter of a semicircle including its diameter.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a semicircle with radius 7 cm.",
+      "solution": "P = 7π + 14 ≈ 35.99 cm."
+    },
+    "note": "Include both the curved part and the diameter."
+  },
+  {
+    "id": "tangent-radius-property",
+    "category": "Property",
+    "title": "Tangent and Radius",
+    "formula": "Radius ⟂ Tangent",
+    "latex": "Radius\\perp Tangent",
+    "description": "The radius drawn to the point of contact is perpendicular to the tangent.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "What is the angle between the radius and tangent?",
+      "solution": "90°."
+    },
+    "note": "One of the fundamental properties of tangents."
+  },
+  {
+    "id": "equal-tangents",
+    "category": "Property",
+    "title": "Equal Tangents",
+    "formula": "PA = PB",
+    "latex": "PA=PB",
+    "description": "Tangents drawn from the same external point are equal in length.",
+    "variables": [
+      {
+        "symbol": "P",
+        "meaning": "External Point"
+      }
+    ],
+    "example": {
+      "question": "If PA = 9 cm, find PB.",
+      "solution": "PB = 9 cm."
+    },
+    "note": "Applies only to tangents from the same external point."
+  },
+  {
+    "id": "equal-chords",
+    "category": "Property",
+    "title": "Equal Chords",
+    "formula": "Equal Chords ⇔ Equal Arcs",
+    "latex": "Equal\\ Chords\\iff Equal\\ Arcs",
+    "description": "Equal chords subtend equal angles and equal arcs in the same circle.",
+    "variables": [
+      {
+        "symbol": "Chord",
+        "meaning": "Line Segment"
+      }
+    ],
+    "example": {
+      "question": "If two chords are equal, compare their arcs.",
+      "solution": "Their intercepted arcs are equal."
+    },
+    "note": "Equal chords are equidistant from the center."
+  }
+]

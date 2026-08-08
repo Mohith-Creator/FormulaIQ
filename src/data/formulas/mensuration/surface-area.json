@@ -1,0 +1,247 @@
+[
+  {
+    "id": "cube-lateral-surface-area",
+    "category": "LSA",
+    "title": "LSA of Cube",
+    "formula": "LSA = 4a²",
+    "latex": "LSA=4a^2",
+    "description": "Calculates the total area of the four side faces of a cube.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side Length"
+      }
+    ],
+    "example": {
+      "question": "Find the lateral surface area of a cube with side 6 cm.",
+      "solution": "LSA = 4 × 6² = 4 × 36 = 144 cm²"
+    },
+    "note": "A cube has four lateral faces."
+  },
+  {
+    "id": "cube-total-surface-area",
+    "category": "TSA",
+    "title": "TSA of Cube", 
+    "formula": "TSA = 6a²",
+    "latex": "TSA=6a^2",
+    "description": "Calculates the total area of all six faces of a cube.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side Length"
+      }
+    ],
+    "example": {
+      "question": "Find the total surface area of a cube with side 6 cm.",
+      "solution": "TSA = 6 × 6² = 6 × 36 = 216 cm²"
+    },
+    "note": "A cube has six equal square faces."
+  },
+
+  {
+    "id": "cuboid-lateral-surface-area",
+    "category": "LSA",
+    "title": "LSA of Cuboid",
+    "formula": "LSA = 2h(l + b)",
+    "latex": "LSA=2h(l+b)",
+    "description": "Calculates the total area of the four side faces of a cuboid.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the lateral surface area of a cuboid with length 10 cm, breadth 6 cm and height 8 cm.",
+      "solution": "LSA = 2 × 8 × (10 + 6) = 256 cm²"
+    },
+    "note": "Lateral surface area excludes the top and bottom faces."
+  },
+  {
+    "id": "cuboid-total-surface-area",
+    "category": "TSA",
+    "title": "TSA of Cuboid",
+    "formula": "TSA = 2(lb + bh + hl)",
+    "latex": "TSA=2(lb+bh+hl)",
+    "description": "Calculates the total area of all six faces of a cuboid.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the total surface area of a cuboid with length 10 cm, breadth 6 cm and height 8 cm.",
+      "solution": "TSA = 2(10×6 + 6×8 + 8×10) = 376 cm²"
+    },
+    "note": "A cuboid has six rectangular faces."
+  },
+
+  {
+    "id": "cylinder-curved-surface-area",
+    "category": "CSA",
+    "title": "CSA of Cylinder",
+    "formula": "CSA = 2πrh",
+    "latex": "CSA=2\\pi rh",
+    "description": "Calculates the area of the curved surface of a cylinder.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the curved surface area of a cylinder with radius 7 cm and height 10 cm.",
+      "solution": "CSA = 2 × π × 7 × 10 = 140π ≈ 439.82 cm²"
+    },
+    "note": "Curved surface area excludes the circular bases."
+  },
+  {
+    "id": "cylinder-total-surface-area",
+    "category": "TSA",
+    "title": "TSA of Cylinder",
+    "formula": "TSA = 2πr(h + r)",
+    "latex": "TSA=2\\pi r(h+r)",
+    "description": "Calculates the total area of the curved surface and the two circular bases of a cylinder.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Height"
+      }
+    ],
+    "example": {
+      "question": "Find the total surface area of a cylinder with radius 7 cm and height 10 cm.",
+      "solution": "TSA = 2 × π × 7 × (10 + 7) = 238π ≈ 747.70 cm²"
+    },
+    "note": "Total surface area = Curved surface area + Area of two circular bases."
+  },
+  {
+    "id": "cone-curved-surface-area",
+    "category": "CSA",
+    "title": "CSA of Cone",
+    "formula": "CSA = πrl",
+    "latex": "CSA=\\pi rl",
+    "description": "Calculates the area of the curved surface of a cone using its radius and slant height.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "l",
+        "meaning": "Slant Height"
+      }
+    ],
+    "example": {
+      "question": "Find the curved surface area of a cone with radius 7 cm and slant height 12 cm.",
+      "solution": "CSA = π × 7 × 12 = 84π ≈ 263.89 cm²"
+    },
+    "note": "Curved surface area excludes the circular base."
+  },
+  {
+    "id": "cone-total-surface-area",
+    "category": "TSA",
+    "title": "TSA of Cone",
+    "formula": "TSA = πr(l + r)",
+    "latex": "TSA=\\pi r(l+r)",
+    "description": "Calculates the total area of the curved surface and the circular base of a cone.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "l",
+        "meaning": "Slant Height"
+      }
+    ],
+    "example": {
+      "question": "Find the total surface area of a cone with radius 7 cm and slant height 12 cm.",
+      "solution": "TSA = π × 7 × (12 + 7) = 133π ≈ 417.83 cm²"
+    },
+    "note": "Total surface area = Curved surface area + Area of the circular base."
+  },
+
+  {
+    "id": "sphere-surface-area",
+    "category": "surface area",
+    "title": "Surface Area of Sphere",
+    "formula": "SA = 4πr²",
+    "latex": "SA=4\\pi r^2",
+    "description": "Calculates the total surface area of a sphere.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the surface area of a sphere with radius 7 cm.",
+      "solution": "SA = 4 × π × 7² = 196π ≈ 615.75 cm²"
+    },
+    "note": "A sphere has only one continuous curved surface."
+  },
+
+  {
+    "id": "hemisphere-curved-surface-area",
+    "category": "CSA",
+    "title": "CSA of Hemisphere",
+    "formula": "CSA = 2πr²",
+    "latex": "CSA=2\\pi r^2",
+    "description": "Calculates the area of the curved surface of a hemisphere.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the curved surface area of a hemisphere with radius 7 cm.",
+      "solution": "CSA = 2 × π × 7² = 98π ≈ 307.88 cm²"
+    },
+    "note": "Curved surface area excludes the circular base."
+  },
+  {
+    "id": "hemisphere-total-surface-area",
+    "category": "TSA",
+    "title": "TSA of Hemisphere",
+    "formula": "TSA = 3πr²",
+    "latex": "TSA=3\\pi r^2",
+    "description": "Calculates the total surface area of a hemisphere, including its circular base.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the total surface area of a hemisphere with radius 7 cm.",
+      "solution": "TSA = 3 × π × 7² = 147π ≈ 461.81 cm²"
+    },
+    "note": "Total surface area = Curved surface area + Area of the circular base."
+  }
+]

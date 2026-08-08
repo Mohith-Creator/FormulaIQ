@@ -1,0 +1,44 @@
+[
+  {
+    "id": "divisibility-rules",
+    "number": 1,
+    "title": "Divisibility Rules",
+    "subtitle": "Quick divisibility tests",
+    "illustration": "divisibility-rules"
+  },
+  {
+    "id": "hcf-lcm",
+    "number": 2,
+    "title": "HCF & LCM",
+    "subtitle": "Highest common factor and least common multiple",
+    "illustration": "hcf-lcm"
+  },
+  {
+    "id": "prime-numbers",
+    "number": 3,
+    "title": "Prime Numbers",
+    "subtitle": "Prime number properties and formulas",
+    "illustration": "prime-numbers"
+  },
+  {
+    "id": "factors-multiples",
+    "number": 4,
+    "title": "Factors & Multiples",
+    "subtitle": "Factors, multiples and related concepts",
+    "illustration": "factors-multiples"
+  },
+  {
+    "id": "remainders",
+    "number": 5,
+    "title": "Remainders",
+    "subtitle": "Remainder theorem and shortcuts",
+    "illustration": "remainders"
+  },
+  {
+    "id": "squares-cubes",
+    "number": 6,
+    "title": "Squares & Cubes",
+    "subtitle": "Square, cube and root formulas",
+    "illustration": "squares-cubes"
+  }
+]

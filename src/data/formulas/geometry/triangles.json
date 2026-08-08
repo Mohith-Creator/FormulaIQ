@@ -1,0 +1,123 @@
+[
+  {
+    "id": "triangle-angle-sum",
+    "category": "Property",
+    "title": "Angle Sum Property",
+    "formula": "A + B + C = 180°",
+    "latex": "A+B+C=180^\\circ",
+    "description": "The sum of the interior angles of a triangle is always 180 degrees.",
+    "variables": [{ "symbol": "A, B, C", "meaning": "Interior Angles" }],
+    "example": {
+      "question": "Two angles are 65° and 45°. Find the third angle.",
+      "solution": "180° − (65° + 45°) = 70°."
+    },
+    "note": "Applies to every triangle."
+  },
+  {
+    "id": "exterior-angle-theorem",
+    "category": "Property",
+    "title": "Exterior Angle Theorem",
+    "formula": "Exterior Angle = Sum of Opposite Interior Angles",
+    "latex": "\\angle_{ext}=\\angle_1+\\angle_2",
+    "description": "An exterior angle equals the sum of the two opposite interior angles.",
+    "variables": [{ "symbol": "∠", "meaning": "Angle" }],
+    "example": {
+      "question": "Opposite interior angles are 45° and 55°. Find the exterior angle.",
+      "solution": "45° + 55° = 100°."
+    },
+    "note": "Useful in angle-based problems."
+  },
+  {
+    "id": "triangle-area",
+    "category": "Area",
+    "title": "Area of Triangle",
+    "formula": "A = (1/2) × b × h",
+    "latex": "A=\\frac12 bh",
+    "description": "Calculates the area of a triangle.",
+    "variables": [
+      { "symbol": "b", "meaning": "Base" },
+      { "symbol": "h", "meaning": "Height" }
+    ],
+    "example": {
+      "question": "Find the area of a triangle with base 10 cm and height 8 cm.",
+      "solution": "½ × 10 × 8 = 40 cm²."
+    },
+    "note": "Height must be perpendicular to the base."
+  },
+  {
+    "id": "herons-formula",
+    "category": "Area",
+    "title": "Heron's Formula",
+    "formula": "A = √[s(s−a)(s−b)(s−c)]",
+    "latex": "A=\\sqrt{s(s-a)(s-b)(s-c)}",
+    "description": "Calculates the area when all three sides are known.",
+    "variables": [
+      { "symbol": "s", "meaning": "Semi-perimeter" },
+      { "symbol": "a,b,c", "meaning": "Sides" }
+    ],
+    "example": {
+      "question": "Find the area of a triangle with sides 3,4,5.",
+      "solution": "s=6, Area=√36=6 cm²."
+    },
+    "note": "Where s=(a+b+c)/2."
+  },
+  {
+    "id": "pythagoras-theorem",
+    "category": "Property",
+    "title": "Pythagoras Theorem",
+    "formula": "a²+b²=c²",
+    "latex": "a^2+b^2=c^2",
+    "description": "Relates the sides of a right triangle.",
+    "variables": [
+      { "symbol": "a,b", "meaning": "Legs" },
+      { "symbol": "c", "meaning": "Hypotenuse" }
+    ],
+    "example": {
+      "question": "Find the hypotenuse if the other sides are 6 cm and 8 cm.",
+      "solution": "√(36+64)=10 cm."
+    },
+    "note": "Applicable only to right triangles."
+  },
+  {
+    "id": "equilateral-triangle-area",
+    "category": "Area",
+    "title": "Area of Equilateral Triangle",
+    "formula": "A = (√3/4)a²",
+    "latex": "A=\\frac{\\sqrt3}{4}a^2",
+    "description": "Calculates the area of an equilateral triangle.",
+    "variables": [{ "symbol": "a", "meaning": "Side Length" }],
+    "example": {
+      "question": "Find the area when side = 8 cm.",
+      "solution": "16√3 cm²."
+    },
+    "note": "All three sides are equal."
+  },
+  {
+    "id": "equilateral-triangle-height",
+    "category": "Formula",
+    "title": "Height of Equilateral Triangle",
+    "formula": "h = (√3/2)a",
+    "latex": "h=\\frac{\\sqrt3}{2}a",
+    "description": "Calculates the height of an equilateral triangle.",
+    "variables": [{ "symbol": "a", "meaning": "Side Length" }],
+    "example": {
+      "question": "Find the height if side = 10 cm.",
+      "solution": "5√3 cm."
+    },
+    "note": "Derived using Pythagoras theorem."
+  },
+  {
+    "id": "triangle-perimeter",
+    "category": "Perimeter",
+    "title": "Perimeter of Triangle",
+    "formula": "P = a+b+c",
+    "latex": "P=a+b+c",
+    "description": "Calculates the perimeter of a triangle.",
+    "variables": [{ "symbol": "a,b,c", "meaning": "Sides" }],
+    "example": {
+      "question": "Find the perimeter of a triangle with sides 5,6,7 cm.",
+      "solution": "18 cm."
+    },
+    "note": "Applicable to all triangles."
+  }
+]

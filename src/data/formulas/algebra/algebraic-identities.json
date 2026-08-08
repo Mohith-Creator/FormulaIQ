@@ -1,0 +1,321 @@
+[
+  {
+    "id": "square-of-sum",
+    "category": "Identity",
+    "title": "Square of Sum",
+    "formula": "(a + b)² = a² + b² + 2ab",
+    "latex": "(a+b)^2=a^2+b^2+2ab",
+    "description": "Expands the square of the sum of two algebraic terms.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Expand (x + 5)².",
+      "solution": "(x + 5)² = x² + 10x + 25."
+    },
+    "note": "The middle term is always twice the product of the two terms."
+  },
+  {
+    "id": "square-of-difference",
+    "category": "Identity",
+    "title": "Square of Difference",
+    "formula": "(a - b)² = a² + b² - 2ab",
+    "latex": "(a-b)^2=a^2+b^2-2ab",
+    "description": "Expands the square of the difference of two algebraic terms.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Expand (x - 3)².",
+      "solution": "(x - 3)² = x² - 6x + 9."
+    },
+    "note": "Only the middle term is negative."
+  },
+  {
+    "id": "difference-of-squares",
+    "category": "Identity",
+    "title": "Difference of Squares",
+    "formula": "a² - b² = (a + b)(a - b)",
+    "latex": "a^2-b^2=(a+b)(a-b)",
+    "description": "Factorizes the difference of two perfect squares into the product of the sum and difference of the terms.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Factorize x² - 49.",
+      "solution": "x² - 49 = (x + 7)(x - 7)."
+    },
+    "note": "Applicable only when both terms are perfect squares."
+  },
+  {
+    "id": "product-of-binomials",
+    "category": "Identity",
+    "title": "Product of Two Binomials",
+    "formula": "(x + a)(x + b) = x² + (a + b)x + ab",
+    "latex": "(x+a)(x+b)=x^2+(a+b)x+ab",
+    "description": "Expands the product of two binomials having the same variable term.",
+    "variables": [
+      {
+        "symbol": "x",
+        "meaning": "Variable"
+      },
+      {
+        "symbol": "a",
+        "meaning": "First Constant"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Constant"
+      }
+    ],
+    "example": {
+      "question": "Expand (x + 2)(x + 5).",
+      "solution": "(x + 2)(x + 5) = x² + 7x + 10."
+    },
+    "note": "Add the constants to obtain the coefficient of x and multiply them to obtain the constant term."
+  },
+  {
+    "id": "square-of-three-terms",
+    "category": "Identity",
+    "title": "Square of Three Terms",
+    "formula": "(a + b + c)² = a² + b² + c² + 2ab + 2bc + 2ca",
+    "latex": "(a+b+c)^2=a^2+b^2+c^2+2ab+2bc+2ca",
+    "description": "Expands the square of the sum of three algebraic terms.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Term"
+      }
+    ],
+    "example": {
+      "question": "Expand (x + y + 2)².",
+      "solution": "(x + y + 2)² = x² + y² + 4 + 2xy + 4x + 4y."
+    },
+    "note": "Square each term and add twice the product of every pair of terms."
+  },
+  {
+    "id": "cube-of-sum",
+    "category": "Identity",
+    "title": "Cube of Sum",
+    "formula": "(a + b)³ = a³ + b³ + 3ab(a + b)",
+    "latex": "(a+b)^3=a^3+b^3+3ab(a+b)",
+    "description": "Expands the cube of the sum of two algebraic terms.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Expand (x + 2)³.",
+      "solution": "(x + 2)³ = x³ + 8 + 6x(x + 2) = x³ + 6x² + 12x + 8."
+    },
+    "note": "Equivalent to a³ + 3a²b + 3ab² + b³."
+  },
+  {
+    "id": "cube-of-difference",
+    "category": "Identity",
+    "title": "Cube of Difference",
+    "formula": "(a - b)³ = a³ - b³ - 3ab(a - b)",
+    "latex": "(a-b)^3=a^3-b^3-3ab(a-b)",
+    "description": "Expands the cube of the difference of two algebraic terms.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Expand (x - 1)³.",
+      "solution": "(x - 1)³ = x³ - 1 - 3x(x - 1) = x³ - 3x² + 3x - 1."
+    },
+    "note": "Equivalent to a³ - 3a²b + 3ab² - b³."
+  },
+  {
+    "id": "sum-of-cubes",
+    "category": "Identity",
+    "title": "Sum of Cubes",
+    "formula": "a³ + b³ = (a + b)(a² - ab + b²)",
+    "latex": "a^3+b^3=(a+b)(a^2-ab+b^2)",
+    "description": "Factorizes the sum of two cubes into the product of a binomial and a quadratic expression.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Factorize x³ + 8.",
+      "solution": "x³ + 8 = (x + 2)(x² - 2x + 4)."
+    },
+    "note": "The middle sign inside the quadratic factor is always negative."
+  },
+  {
+    "id": "difference-of-cubes",
+    "category": "Identity",
+    "title": "Difference of Cubes",
+    "formula": "a³ - b³ = (a - b)(a² + ab + b²)",
+    "latex": "a^3-b^3=(a-b)(a^2+ab+b^2)",
+    "description": "Factorizes the difference of two cubes into the product of a binomial and a quadratic expression.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Factorize x³ - 27.",
+      "solution": "x³ - 27 = (x - 3)(x² + 3x + 9)."
+    },
+    "note": "The middle sign inside the quadratic factor is always positive."
+  },
+  {
+    "id": "fourth-power-identity",
+    "category": "Identity",
+    "title": "Fourth Power Identity",
+    "formula": "a⁴ + b⁴ + a²b² = (a² + b² + ab)(a² + b² - ab)",
+    "latex": "a^4+b^4+a^2b^2=(a^2+b^2+ab)(a^2+b^2-ab)",
+    "description": "Factorizes the expression containing fourth powers and the product of squares into two quadratic factors.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      }
+    ],
+    "example": {
+      "question": "Factorize x⁴ + x²y² + y⁴.",
+      "solution": "x⁴ + x²y² + y⁴ = (x² + y² + xy)(x² + y² - xy)."
+    },
+    "note": "A useful identity for factorizing fourth-degree expressions."
+  },
+  {
+    "id": "sum-of-three-cubes",
+    "category": "Identity",
+    "title": "Sum of Three Cubes",
+    "formula": "a³ + b³ + c³ - 3abc = (a + b + c)(a² + b² + c² - ab - bc - ca)",
+    "latex": "a^3+b^3+c^3-3abc=(a+b+c)(a^2+b^2+c^2-ab-bc-ca)",
+    "description": "Factorizes the expression involving the sum of three cubes and the product of the three variables.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Term"
+      }
+    ],
+    "example": {
+      "question": "Factorize x³ + y³ + z³ - 3xyz.",
+      "solution": "(x + y + z)(x² + y² + z² - xy - yz - zx)."
+    },
+    "note": "One of the most important identities involving three variables."
+  },
+  {
+    "id": "sum-of-three-cubes-alternate",
+    "category": "Identity",
+    "title": "Alternate Form of Sum of Three Cubes",
+    "formula": "a³ + b³ + c³ - 3abc = (a + b + c)[(a - b)² + (b - c)² + (c - a)²] / 2",
+    "latex": "a^3+b^3+c^3-3abc=\\frac{(a+b+c)\\left((a-b)^2+(b-c)^2+(c-a)^2\\right)}{2}",
+    "description": "Expresses the identity involving the sum of three cubes in terms of the squared differences of the variables.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Term"
+      }
+    ],
+    "example": {
+      "question": "Express x³ + y³ + z³ − 3xyz in the alternate factorized form.",
+      "solution": "(x + y + z)[(x − y)² + (y − z)² + (z − x)²] / 2."
+    },
+    "note": "This is an equivalent form of the identity a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)."
+  },
+  {
+    "id": "special-case-sum-of-three-cubes",
+    "category": "Identity",
+    "title": "Special Case (a + b + c = 0)",
+    "formula": "If a + b + c = 0, then a³ + b³ + c³ = 3abc",
+    "latex": "a+b+c=0\\Rightarrow a^3+b^3+c^3=3abc",
+    "description": "A special result obtained from the sum of three cubes identity when the sum of the three variables is zero.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Term"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Term"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Term"
+      }
+    ],
+    "example": {
+      "question": "If x + y + z = 0, simplify x³ + y³ + z³.",
+      "solution": "x³ + y³ + z³ = 3xyz."
+    },
+    "note": "This identity follows directly from the previous formula by substituting a + b + c = 0."
+  }
+]

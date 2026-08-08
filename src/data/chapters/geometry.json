@@ -1,0 +1,51 @@
+[
+  {
+    "id": "lines-angles",
+    "number": 1,
+    "title": "Lines & Angles",
+    "subtitle": "Angle relationships and line properties",
+    "illustration": "lines-angles"
+  },
+  {
+    "id": "triangles",
+    "number": 2,
+    "title": "Triangles",
+    "subtitle": "Triangle theorems and formulas",
+    "illustration": "triangles"
+  },
+  {
+    "id": "quadrilaterals",
+    "number": 3,
+    "title": "Quadrilaterals",
+    "subtitle": "Properties of four-sided figures",
+    "illustration": "quadrilaterals"
+  },
+  {
+    "id": "circles",
+    "number": 4,
+    "title": "Circles",
+    "subtitle": "Circle theorems and formulas",
+    "illustration": "circles"
+  },
+  {
+    "id": "coordinate-geometry",
+    "number": 5,
+    "title": "Coordinate Geometry",
+    "subtitle": "Distance, midpoint and coordinate formulas",
+    "illustration": "coordinate-geometry"
+  },
+  {
+    "id": "polygon",
+    "number": 5,
+    "title": "Polygon",
+    "subtitle": "Regular Polygon concepts",
+    "illustration": "quadrilaterals"
+  },
+  {
+    "id": "constructions",
+    "number": 6,
+    "title": "Constructions",
+    "subtitle": "Geometric construction concepts",
+    "illustration": "constructions"
+  }
+]

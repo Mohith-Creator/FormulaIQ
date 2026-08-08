@@ -1,0 +1,92 @@
+[
+  {
+    "id": "ap-nth-term",
+    "category": "AP",
+    "title": "nth Term of AP",
+    "formula": "aₙ = a + (n − 1)d",
+    "latex": "a_n=a+(n-1)d",
+    "description": "Calculates the nth term of an arithmetic progression.",
+    "variables": [
+      { "symbol": "a", "meaning": "First Term" },
+      { "symbol": "n", "meaning": "Term Number" },
+      { "symbol": "d", "meaning": "Common Difference" }
+    ],
+    "example": {
+      "question": "Find the 10th term of the AP 3, 7, 11, ...",
+      "solution": "a = 3, d = 4\na₁₀ = 3 + (10−1)×4 = 39."
+    },
+    "note": "The common difference remains constant."
+  },
+  {
+    "id": "ap-sum",
+    "category": "AP",
+    "title": "Sum of n Terms of AP",
+    "formula": "Sₙ = n/2 [2a + (n − 1)d]",
+    "latex": "S_n=\\frac{n}{2}[2a+(n-1)d]",
+    "description": "Calculates the sum of the first n terms of an arithmetic progression.",
+    "variables": [
+      { "symbol": "Sₙ", "meaning": "Sum of n Terms" },
+      { "symbol": "a", "meaning": "First Term" },
+      { "symbol": "d", "meaning": "Common Difference" },
+      { "symbol": "n", "meaning": "Number of Terms" }
+    ],
+    "example": {
+      "question": "Find the sum of the first 10 terms of the AP 3, 7, 11, ...",
+      "solution": "S₁₀ = 10/2[6 + 36] = 210."
+    },
+    "note": "Useful for finding the total of consecutive AP terms."
+  },
+  {
+    "id": "gp-nth-term",
+    "category": "GP",
+    "title": "nth Term of GP",
+    "formula": "aₙ = arⁿ⁻¹",
+    "latex": "a_n=ar^{n-1}",
+    "description": "Calculates the nth term of a geometric progression.",
+    "variables": [
+      { "symbol": "a", "meaning": "First Term" },
+      { "symbol": "r", "meaning": "Common Ratio" },
+      { "symbol": "n", "meaning": "Term Number" }
+    ],
+    "example": {
+      "question": "Find the 5th term of the GP 2, 4, 8, ...",
+      "solution": "a₅ = 2 × 2⁴ = 32."
+    },
+    "note": "Each term is multiplied by the common ratio."
+  },
+  {
+    "id": "gp-sum",
+    "category": "GP",
+    "title": "Sum of n Terms of GP",
+    "formula": "Sₙ = a(rⁿ − 1)/(r − 1)",
+    "latex": "S_n=\\frac{a(r^n-1)}{r-1}",
+    "description": "Calculates the sum of the first n terms of a geometric progression when r ≠ 1.",
+    "variables": [
+      { "symbol": "a", "meaning": "First Term" },
+      { "symbol": "r", "meaning": "Common Ratio" },
+      { "symbol": "n", "meaning": "Number of Terms" }
+    ],
+    "example": {
+      "question": "Find the sum of the first 4 terms of 2, 4, 8, 16, ...",
+      "solution": "S₄ = 2(2⁴−1)/(2−1) = 30."
+    },
+    "note": "Valid only when r ≠ 1."
+  },
+  {
+    "id": "infinite-gp-sum",
+    "category": "GP",
+    "title": "Sum of Infinite GP",
+    "formula": "S = a/(1 − r)",
+    "latex": "S=\\frac{a}{1-r}",
+    "description": "Calculates the sum of an infinite geometric progression when |r| < 1.",
+    "variables": [
+      { "symbol": "a", "meaning": "First Term" },
+      { "symbol": "r", "meaning": "Common Ratio" }
+    ],
+    "example": {
+      "question": "Find the sum of 8 + 4 + 2 + 1 + ...",
+      "solution": "S = 8/(1−1/2) = 16."
+    },
+    "note": "Applicable only when |r| is less than 1."
+  }
+]

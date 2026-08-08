@@ -1,0 +1,621 @@
+[
+  {
+    "id": "rectangle-area",
+    "category": "area",
+    "title": "Area of Rectangle",
+    "formula": "A = l × b",
+    "latex": "A=l\\times b",
+    "description": "Calculates the area enclosed by a rectangle using its length and breadth.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a rectangle with length 12 cm and breadth 5 cm.",
+      "solution": "A = 12 × 5 = 60 cm²"
+    },
+    "note": "Area is measured in square units."
+  },
+  {
+    "id": "rectangle-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Rectangle",
+    "formula": "P = 2(l + b)",
+    "latex": "P=2(l+b)",
+    "description": "Calculates the total length of the boundary of a rectangle.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a rectangle with length 10 cm and breadth 4 cm.",
+      "solution": "P = 2(10 + 4) = 28 cm"
+    },
+    "note": "Perimeter is measured in linear units."
+  },
+  {
+    "id": "rectangle-diagonal",
+    "category": "diagonal",
+    "title": "Diagonal of Rectangle",
+    "formula": "d = √(l² + b²)",
+    "latex": "d=\\sqrt{l^2+b^2}",
+    "description": "Calculates the diagonal of a rectangle using the Pythagorean theorem.",
+    "variables": [
+      {
+        "symbol": "l",
+        "meaning": "Length"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Breadth"
+      }
+    ],
+    "example": {
+      "question": "Find the diagonal of a rectangle with length 8 cm and breadth 6 cm.",
+      "solution": "d = √(8² + 6²) = √100 = 10 cm"
+    },
+    "note": "Derived using the Pythagorean theorem."
+  },
+
+  {
+    "id": "square-area",
+    "category": "area",
+    "title": "Area of Square",
+    "formula": "A = a²",
+    "latex": "A=a^2",
+    "description": "Calculates the area enclosed by a square using its side length.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a square with side 9 cm.",
+      "solution": "A = 9² = 81 cm²"
+    },
+    "note": "All four sides of a square are equal."
+  },
+  {
+    "id": "square-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Square",
+    "formula": "P = 4a",
+    "latex": "P=4a",
+    "description": "Calculates the total length of the boundary of a square.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a square with side 7 cm.",
+      "solution": "P = 4 × 7 = 28 cm"
+    },
+    "note": "Perimeter is four times the side length."
+  },
+  {
+    "id": "square-diagonal",
+    "category": "diagonal",
+    "title": "Diagonal of Square",
+    "formula": "d = a√2",
+    "latex": "d=a\\sqrt{2}",
+    "description": "Calculates the diagonal of a square from its side length.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side"
+      }
+    ],
+    "example": {
+      "question": "Find the diagonal of a square with side 10 cm.",
+      "solution": "d = 10√2 ≈ 14.14 cm"
+    },
+    "note": "Derived using the Pythagorean theorem."
+  },
+
+  {
+    "id": "triangle-area",
+    "category": "area",
+    "title": "Area of Triangle",
+    "formula": "A = ½ × b × h",
+    "latex": "A=\\frac{1}{2}bh",
+    "description": "Calculates the area of a triangle using its base and perpendicular height.",
+    "variables": [
+      {
+        "symbol": "b",
+        "meaning": "Base"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Perpendicular Height"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a triangle with base 14 cm and height 8 cm.",
+      "solution": "A = ½ × 14 × 8 = 56 cm²"
+    },
+    "note": "Height must be perpendicular to the base."
+  },
+  {
+    "id": "triangle-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Triangle",
+    "formula": "P = a + b + c",
+    "latex": "P=a+b+c",
+    "description": "Calculates the total length of the boundary of a triangle.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Side"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Side"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Side"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a triangle with sides 5 cm, 6 cm and 7 cm.",
+      "solution": "P = 5 + 6 + 7 = 18 cm"
+    },
+    "note": "Perimeter is the sum of all three sides."
+  },
+  {
+    "id": "triangle-semi-perimeter",
+    "category": "semi-perimeter",
+    "title": "Semi-Perimeter of Triangle",
+    "formula": "s = (a + b + c)/2",
+    "latex": "s=\\frac{a+b+c}{2}",
+    "description": "Calculates half of the triangle's perimeter. It is mainly used in Heron's formula.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Side"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Side"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Side"
+      }
+    ],
+    "example": {
+      "question": "Find the semi-perimeter of a triangle with sides 6 cm, 8 cm and 10 cm.",
+      "solution": "s = (6 + 8 + 10) / 2 = 12 cm"
+    },
+    "note": "Semi-perimeter is represented by the symbol 's'."
+  },
+  {
+    "id": "triangle-herons-area",
+    "category": "area",
+    "title": "Heron's Formula",
+    "formula": "A = √[s(s − a)(s − b)(s − c)]",
+    "latex": "A=\\sqrt{s(s-a)(s-b)(s-c)}",
+    "description": "Calculates the area of a triangle using the lengths of all three sides.",
+    "variables": [
+      {
+        "symbol": "s",
+        "meaning": "Semi-Perimeter"
+      },
+      {
+        "symbol": "a",
+        "meaning": "First Side"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Side"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Side"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a triangle with sides 5 cm, 12 cm and 13 cm.",
+      "solution": "s = (5 + 12 + 13)/2 = 15\nA = √[15(15−5)(15−12)(15−13)] = √900 = 30 cm²"
+    },
+    "note": "Use Heron's formula when the three sides are known but the height is not."
+  },
+  {
+    "id": "parallelogram-area",
+    "category": "area",
+    "title": "Area of Parallelogram",
+    "formula": "A = b × h",
+    "latex": "A=b\\times h",
+    "description": "Calculates the area enclosed by a parallelogram using its base and perpendicular height.",
+    "variables": [
+      {
+        "symbol": "b",
+        "meaning": "Base"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Perpendicular Height"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a parallelogram with base 15 cm and height 8 cm.",
+      "solution": "A = 15 × 8 = 120 cm²"
+    },
+    "note": "The height must be perpendicular to the base."
+  },
+  {
+    "id": "parallelogram-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Parallelogram",
+    "formula": "P = 2(a + b)",
+    "latex": "P=2(a+b)",
+    "description": "Calculates the total length of the boundary of a parallelogram.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Base"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a parallelogram with sides 9 cm and 6 cm.",
+      "solution": "P = 2(9 + 6) = 30 cm"
+    },
+    "note": "Opposite sides of a parallelogram are equal."
+  },
+
+  {
+    "id": "rhombus-area",
+    "category": "area",
+    "title": "Area of Rhombus",
+    "formula": "A = ½ × d₁ × d₂",
+    "latex": "A=\\frac{1}{2}d_1d_2",
+    "description": "Calculates the area of a rhombus using the lengths of its diagonals.",
+    "variables": [
+      {
+        "symbol": "d₁",
+        "meaning": "First Diagonal"
+      },
+      {
+        "symbol": "d₂",
+        "meaning": "Second Diagonal"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a rhombus with diagonals 16 cm and 10 cm.",
+      "solution": "A = ½ × 16 × 10 = 80 cm²"
+    },
+    "note": "The diagonals of a rhombus bisect each other at right angles."
+  },
+  {
+    "id": "rhombus-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Rhombus",
+    "formula": "P = 4a",
+    "latex": "P=4a",
+    "description": "Calculates the total length of the boundary of a rhombus.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Side"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a rhombus with side 11 cm.",
+      "solution": "P = 4 × 11 = 44 cm"
+    },
+    "note": "All four sides of a rhombus are equal."
+  },
+
+  {
+    "id": "trapezium-area",
+    "category": "area",
+    "title": "Area of Trapezium",
+    "formula": "A = ½(a + b) × h",
+    "latex": "A=\\frac{(a+b)h}{2}",
+    "description": "Calculates the area of a trapezium using the lengths of its parallel sides and perpendicular height.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Parallel Side"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Parallel Side"
+      },
+      {
+        "symbol": "h",
+        "meaning": "Perpendicular Height"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a trapezium with parallel sides 8 cm and 14 cm and height 6 cm.",
+      "solution": "A = ½(8 + 14) × 6 = 66 cm²"
+    },
+    "note": "Only the parallel sides are used in the formula."
+  },
+  {
+    "id": "trapezium-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Trapezium",
+    "formula": "P = a + b + c + d",
+    "latex": "P=a+b+c+d",
+    "description": "Calculates the total length of the boundary of a trapezium.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "First Side"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Second Side"
+      },
+      {
+        "symbol": "c",
+        "meaning": "Third Side"
+      },
+      {
+        "symbol": "d",
+        "meaning": "Fourth Side"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a trapezium with sides 8 cm, 14 cm, 5 cm and 7 cm.",
+      "solution": "P = 8 + 14 + 5 + 7 = 34 cm"
+    },
+    "note": "Perimeter is the sum of all four sides."
+  },
+  {
+    "id": "kite-area",
+    "category": "area",
+    "title": "Area of Kite",
+    "formula": "A = ½ × d₁ × d₂",
+    "latex": "A=\\frac{1}{2}d_1d_2",
+    "description": "Calculates the area of a kite using the lengths of its diagonals.",
+    "variables": [
+      {
+        "symbol": "d₁",
+        "meaning": "First Diagonal"
+      },
+      {
+        "symbol": "d₂",
+        "meaning": "Second Diagonal"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a kite with diagonals 18 cm and 12 cm.",
+      "solution": "A = ½ × 18 × 12 = 108 cm²"
+    },
+    "note": "The diagonals of a kite intersect at right angles."
+  },
+  {
+    "id": "kite-perimeter",
+    "category": "perimeter",
+    "title": "Perimeter of Kite",
+    "formula": "P = 2(a + b)",
+    "latex": "P=2(a+b)",
+    "description": "Calculates the total length of the boundary of a kite.",
+    "variables": [
+      {
+        "symbol": "a",
+        "meaning": "Length of one pair of equal sides"
+      },
+      {
+        "symbol": "b",
+        "meaning": "Length of the other pair of equal sides"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a kite with equal side pairs of 8 cm and 5 cm.",
+      "solution": "P = 2(8 + 5) = 26 cm"
+    },
+    "note": "A kite has two pairs of adjacent equal sides."
+  },
+
+  {
+    "id": "circle-area",
+    "category": "area",
+    "title": "Area of Circle",
+    "formula": "A = πr²",
+    "latex": "A=\\pi r^2",
+    "description": "Calculates the area enclosed by a circle using its radius.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a circle with radius 7 cm.",
+      "solution": "A = π × 7² = 49π ≈ 153.94 cm²"
+    },
+    "note": "Use π ≈ 3.14 or 22/7 depending on the problem."
+  },
+  {
+    "id": "circle-circumference",
+    "category": "circumference",
+    "title": "Circumference of Circle",
+    "formula": "C = 2πr",
+    "latex": "C=2\\pi r",
+    "description": "Calculates the distance around a circle.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the circumference of a circle with radius 7 cm.",
+      "solution": "C = 2 × π × 7 = 14π ≈ 43.98 cm"
+    },
+    "note": "The circumference is the perimeter of a circle."
+  },
+
+  {
+    "id": "semicircle-area",
+    "category": "area",
+    "title": "Area of Semicircle",
+    "formula": "A = ½πr²",
+    "latex": "A=\\frac{1}{2}\\pi r^2",
+    "description": "Calculates the area enclosed by a semicircle.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a semicircle with radius 7 cm.",
+      "solution": "A = ½ × π × 7² = 24.5π ≈ 76.97 cm²"
+    },
+    "note": "A semicircle is half of a circle."
+  },
+  {
+    "id": "semicircle-perimeter",
+    "category": "circumference",
+    "title": "circumference of Semicircle",
+    "formula": "P = πr + 2r",
+    "latex": "P=\\pi r+2r",
+    "description": "Calculates the total boundary length of a semicircle, including the diameter.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a semicircle with radius 7 cm.",
+      "solution": "P = 7π + 14 ≈ 35.99 cm"
+    },
+    "note": "Perimeter = Half Circumference + Diameter."
+  },
+  {
+    "id": "semicircle-arc-length",
+    "category": "arc-length",
+    "title": "Arc Length of Semicircle",
+    "formula": "L = πr",
+    "latex": "L=\\pi r",
+    "description": "Calculates the length of the curved portion of a semicircle.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the arc length of a semicircle with radius 7 cm.",
+      "solution": "L = π × 7 = 7π ≈ 21.99 cm"
+    },
+    "note": "Arc length excludes the diameter."
+  },
+  {
+    "id": "sector-area",
+    "category": "area",
+    "title": "Area of Sector",
+    "formula": "A = (θ/360) × πr²",
+    "latex": "A=\\frac{\\theta}{360}\\pi r^2",
+    "description": "Calculates the area of a sector using its central angle and radius.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Central Angle (in degrees)"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of a sector with radius 7 cm and central angle 90°.",
+      "solution": "A = (90/360) × π × 7² = 49π/4 ≈ 38.48 cm²"
+    },
+    "note": "The central angle determines the fraction of the circle."
+  },
+  {
+    "id": "sector-perimeter",
+    "category": "circumference",
+    "title": "circumference of Sector",
+    "formula": "P = 2r + L",
+    "latex": "P=2r+L",
+    "description": "Calculates the total boundary length of a sector using its two radii and arc length.",
+    "variables": [
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      },
+      {
+        "symbol": "L",
+        "meaning": "Arc Length"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a sector with radius 7 cm and arc length 11 cm.",
+      "solution": "P = 2 × 7 + 11 = 25 cm"
+    },
+    "note": "Perimeter = Two radii + Arc length."
+  },
+  {
+    "id": "sector-arc-length",
+    "category": "arc-length",
+    "title": "Arc Length of Sector",
+    "formula": "L = (θ/360) × 2πr",
+    "latex": "L=\\frac{\\theta}{360}\\times2\\pi r",
+    "description": "Calculates the length of the curved boundary of a sector.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Central Angle (in degrees)"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the arc length of a sector with radius 7 cm and central angle 90°.",
+      "solution": "L = (90/360) × 2π × 7 = 7π/2 ≈ 10.99 cm"
+    },
+    "note": "Arc length is the corresponding fraction of the circle's circumference."
+  },
+  {
+    "id": "segment-area",
+    "category": "area",
+    "title": "Area of Segment",
+    "formula": "A = (θ/360) × πr² − ½r²sinθ",
+    "latex": "A=\\frac{\\theta}{360}\\pi r^2-\\frac{1}{2}r^2\\sin\\theta",
+    "description": "Calculates the area of the minor segment of a circle by subtracting the area of the triangle from the area of the corresponding sector.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Central Angle (in degrees)"
+      },
+      {
+        "symbol": "r",
+        "meaning": "Radius"
+      }
+    ],
+    "example": {
+      "question": "Find the area of the segment of a circle with radius 7 cm and central angle 90°.",
+      "solution": "Area = (90/360) × π × 7² − ½ × 7² × sin90° = 49π/4 − 24.5 ≈ 13.98 cm²"
+    },
+    "note": "Area of Segment = Area of Sector − Area of Triangle. For angles given in radians, use A = ½r²(θ − sinθ)."
+  }
+]

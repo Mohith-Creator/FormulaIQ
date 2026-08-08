@@ -1,0 +1,78 @@
+[
+  {
+    "id": "prime-number-definition",
+    "category": "Definition",
+    "title": "Prime Number",
+    "formula": "Exactly two factors",
+    "latex": "\\text{Exactly two factors}",
+    "description": "A prime number is a natural number greater than 1 having exactly two distinct positive factors: 1 and itself.",
+    "variables": [
+      {
+        "symbol": "p",
+        "meaning": "Prime Number"
+      }
+    ],
+    "example": {
+      "question": "Is 17 a prime number?",
+      "solution": "17 has only two factors: 1 and 17. Therefore, it is prime."
+    },
+    "note": "2 is the only even prime number."
+  },
+  {
+    "id": "composite-number-definition",
+    "category": "Definition",
+    "title": "Composite Number",
+    "formula": "More than two factors",
+    "latex": "\\text{More than two factors}",
+    "description": "A composite number is a natural number greater than 1 having more than two positive factors.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Composite Number"
+      }
+    ],
+    "example": {
+      "question": "Is 18 a composite number?",
+      "solution": "18 has factors 1, 2, 3, 6, 9 and 18. Hence it is composite."
+    },
+    "note": "Every composite number can be expressed as a product of prime numbers."
+  },
+  {
+    "id": "prime-factorization",
+    "category": "Method",
+    "title": "Prime Factorization",
+    "formula": "Express a number as a product of prime numbers",
+    "latex": "\\text{Prime Factorization}",
+    "description": "Prime factorization writes a composite number as the product of its prime factors.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Composite Number"
+      }
+    ],
+    "example": {
+      "question": "Find the prime factorization of 60.",
+      "solution": "60 = 2² × 3 × 5."
+    },
+    "note": "Prime factorization is unique for every composite number."
+  },
+  {
+    "id": "co-prime-numbers",
+    "category": "Definition",
+    "title": "Co-prime Numbers",
+    "formula": "HCF = 1",
+    "latex": "\\mathrm{HCF}=1",
+    "description": "Two numbers are co-prime if their highest common factor is 1.",
+    "variables": [
+      {
+        "symbol": "a,b",
+        "meaning": "Two Integers"
+      }
+    ],
+    "example": {
+      "question": "Are 8 and 15 co-prime?",
+      "solution": "HCF(8,15)=1. Hence they are co-prime."
+    },
+    "note": "Co-prime numbers need not be prime."
+  }
+]

@@ -1,0 +1,153 @@
+[
+  {
+    "id": "polygon-interior-angle-sum",
+    "category": "Polygon",
+    "title": "Sum of Interior Angles",
+    "formula": "(n - 2) × 180°",
+    "latex": "(n-2)\\times180^\\circ",
+    "description": "The sum of all interior angles of a polygon having n sides.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      }
+    ],
+    "example": {
+      "question": "Find the sum of interior angles of a hexagon.",
+      "solution": "(6 - 2) × 180 = 720°"
+    },
+    "note": "Works for every simple polygon."
+  },
+  {
+    "id": "polygon-one-interior-angle",
+    "category": "Polygon",
+    "title": "Each Interior Angle (Regular Polygon)",
+    "formula": "((n - 2) × 180°) / n",
+    "latex": "\\frac{(n-2)\\times180^\\circ}{n}",
+    "description": "Calculates the measure of each interior angle of a regular polygon.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      }
+    ],
+    "example": {
+      "question": "Find each interior angle of a regular octagon.",
+      "solution": "((8 - 2) × 180) / 8 = 135°"
+    },
+    "note": "Applicable only for regular polygons."
+  },
+  {
+    "id": "polygon-exterior-angle",
+    "category": "Polygon",
+    "title": "Each Exterior Angle",
+    "formula": "360° / n",
+    "latex": "\\frac{360^\\circ}{n}",
+    "description": "The measure of each exterior angle of a regular polygon.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      }
+    ],
+    "example": {
+      "question": "Find each exterior angle of a regular decagon.",
+      "solution": "360 / 10 = 36°"
+    },
+    "note": "Sum of all exterior angles is always 360°."
+  },
+  {
+    "id": "polygon-exterior-angle-sum",
+    "category": "Polygon",
+    "title": "Sum of Exterior Angles",
+    "formula": "360°",
+    "latex": "360^\\circ",
+    "description": "The sum of one exterior angle at each vertex of any polygon.",
+    "variables": [],
+    "example": {
+      "question": "Find the sum of exterior angles of a 20-sided polygon.",
+      "solution": "360°"
+    },
+    "note": "Independent of the number of sides."
+  },
+  {
+    "id": "polygon-diagonals",
+    "category": "Polygon",
+    "title": "Number of Diagonals",
+    "formula": "n(n - 3) / 2",
+    "latex": "\\frac{n(n-3)}{2}",
+    "description": "Calculates the total number of diagonals in a polygon.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      }
+    ],
+    "example": {
+      "question": "How many diagonals does an octagon have?",
+      "solution": "8 × (8 - 3) / 2 = 20"
+    },
+    "note": "Every diagonal joins two non-adjacent vertices."
+  },
+  {
+    "id": "polygon-triangles",
+    "category": "Polygon",
+    "title": "Number of Triangles",
+    "formula": "n - 2",
+    "latex": "n-2",
+    "description": "A polygon can be divided into n − 2 triangles by drawing diagonals from one vertex.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      }
+    ],
+    "example": {
+      "question": "Into how many triangles can a nonagon be divided?",
+      "solution": "9 - 2 = 7"
+    },
+    "note": "Useful for deriving the interior angle sum formula."
+  },
+  {
+    "id": "polygon-central-angle",
+    "category": "Polygon",
+    "title": "Central Angle",
+    "formula": "360° / n",
+    "latex": "\\frac{360^\\circ}{n}",
+    "description": "The angle subtended at the center by each side of a regular polygon.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      }
+    ],
+    "example": {
+      "question": "Find the central angle of a regular pentagon.",
+      "solution": "360 / 5 = 72°"
+    },
+    "note": "Equal to each exterior angle in a regular polygon."
+  },
+  {
+    "id": "polygon-perimeter",
+    "category": "Polygon",
+    "title": "Perimeter of Regular Polygon",
+    "formula": "n × s",
+    "latex": "ns",
+    "description": "The perimeter of a regular polygon is the product of the number of sides and the length of one side.",
+    "variables": [
+      {
+        "symbol": "n",
+        "meaning": "Number of sides"
+      },
+      {
+        "symbol": "s",
+        "meaning": "Length of one side"
+      }
+    ],
+    "example": {
+      "question": "Find the perimeter of a regular hexagon with side 8 cm.",
+      "solution": "6 × 8 = 48 cm"
+    },
+    "note": "Applicable only to regular polygons."
+  }
+]

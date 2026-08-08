@@ -1,0 +1,104 @@
+[
+  {
+    "id": "sine-ratio",
+    "category": "Ratio",
+    "title": "Sine Ratio",
+    "formula": "sin θ = Perpendicular / Hypotenuse",
+    "latex": "\\sin\\theta=\\frac{P}{H}",
+    "description": "Calculates the ratio of the perpendicular side to the hypotenuse in a right triangle.",
+    "variables": [
+      { "symbol": "P", "meaning": "Perpendicular" },
+      { "symbol": "H", "meaning": "Hypotenuse" }
+    ],
+    "example": {
+      "question": "Find sin θ if the perpendicular is 6 cm and the hypotenuse is 10 cm.",
+      "solution": "sin θ = 6/10 = 3/5"
+    },
+    "note": "Defined only for right-angled triangles."
+  },
+  {
+    "id": "cosine-ratio",
+    "category": "Ratio",
+    "title": "Cosine Ratio",
+    "formula": "cos θ = Base / Hypotenuse",
+    "latex": "\\cos\\theta=\\frac{B}{H}",
+    "description": "Calculates the ratio of the base to the hypotenuse in a right triangle.",
+    "variables": [
+      { "symbol": "B", "meaning": "Base" },
+      { "symbol": "H", "meaning": "Hypotenuse" }
+    ],
+    "example": {
+      "question": "Find cos θ if the base is 8 cm and the hypotenuse is 10 cm.",
+      "solution": "cos θ = 8/10 = 4/5"
+    },
+    "note": "Defined only for right-angled triangles."
+  },
+  {
+    "id": "tangent-ratio",
+    "category": "Ratio",
+    "title": "Tangent Ratio",
+    "formula": "tan θ = Perpendicular / Base",
+    "latex": "\\tan\\theta=\\frac{P}{B}",
+    "description": "Calculates the ratio of the perpendicular side to the base.",
+    "variables": [
+      { "symbol": "P", "meaning": "Perpendicular" },
+      { "symbol": "B", "meaning": "Base" }
+    ],
+    "example": {
+      "question": "Find tan θ if the perpendicular is 12 cm and the base is 5 cm.",
+      "solution": "tan θ = 12/5"
+    },
+    "note": "tan θ = sin θ / cos θ."
+  },
+  {
+    "id": "cotangent-ratio",
+    "category": "Ratio",
+    "title": "Cotangent Ratio",
+    "formula": "cot θ = Base / Perpendicular",
+    "latex": "\\cot\\theta=\\frac{B}{P}",
+    "description": "Calculates the ratio of the base to the perpendicular.",
+    "variables": [
+      { "symbol": "B", "meaning": "Base" },
+      { "symbol": "P", "meaning": "Perpendicular" }
+    ],
+    "example": {
+      "question": "Find cot θ if the base is 9 cm and the perpendicular is 3 cm.",
+      "solution": "cot θ = 9/3 = 3"
+    },
+    "note": "cot θ = 1 / tan θ."
+  },
+  {
+    "id": "secant-ratio",
+    "category": "Ratio",
+    "title": "Secant Ratio",
+    "formula": "sec θ = Hypotenuse / Base",
+    "latex": "\\sec\\theta=\\frac{H}{B}",
+    "description": "Calculates the ratio of the hypotenuse to the base.",
+    "variables": [
+      { "symbol": "H", "meaning": "Hypotenuse" },
+      { "symbol": "B", "meaning": "Base" }
+    ],
+    "example": {
+      "question": "Find sec θ if the hypotenuse is 15 cm and the base is 12 cm.",
+      "solution": "sec θ = 15/12 = 5/4"
+    },
+    "note": "sec θ = 1 / cos θ."
+  },
+  {
+    "id": "cosecant-ratio",
+    "category": "Ratio",
+    "title": "Cosecant Ratio",
+    "formula": "cosec θ = Hypotenuse / Perpendicular",
+    "latex": "\\cosec\\theta=\\frac{H}{P}",
+    "description": "Calculates the ratio of the hypotenuse to the perpendicular.",
+    "variables": [
+      { "symbol": "H", "meaning": "Hypotenuse" },
+      { "symbol": "P", "meaning": "Perpendicular" }
+    ],
+    "example": {
+      "question": "Find cosec θ if the hypotenuse is 13 cm and the perpendicular is 5 cm.",
+      "solution": "cosec θ = 13/5"
+    },
+    "note": "cosec θ = 1 / sin θ."
+  }
+]

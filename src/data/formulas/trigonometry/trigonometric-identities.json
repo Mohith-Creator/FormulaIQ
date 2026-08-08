@@ -1,0 +1,242 @@
+[
+  {
+    "id": "pythagorean-identity",
+    "category": "Identity",
+    "title": "Pythagorean Identity",
+    "formula": "sin²θ + cos²θ = 1",
+    "latex": "\\sin^2\\theta+\\cos^2\\theta=1",
+    "description": "Relates the squares of sine and cosine of the same angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "If sin θ = 3/5, find cos θ.",
+      "solution": "cos²θ = 1 − (3/5)² = 16/25 ⇒ cos θ = 4/5."
+    },
+    "note": "This is the most important trigonometric identity."
+  },
+  {
+    "id": "sec-tan-identity",
+    "category": "Identity",
+    "title": "Secant-Tangent Identity",
+    "formula": "sec²θ - tan²θ = 1",
+    "latex": "\\sec^2\\theta-\\tan^2\\theta=1",
+    "description": "Relates tangent and secant of the same angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "If tan θ = 3/4, find sec θ.",
+      "solution": "sec²θ = 1 + (3/4)² = 25/16 ⇒ sec θ = 5/4."
+    },
+    "note": "Derived from the Pythagorean identity."
+  },
+  {
+    "id": "cosec-cot-identity",
+    "category": "Identity",
+    "title": "Cosecant-Cotangent Identity",
+    "formula": "cosec²θ - cot²θ = 1",
+    "latex": "\\cosec^2\\theta-\\cot^2\\theta=1",
+    "description": "Relates cotangent and cosecant of the same angle.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "If cot θ = 8/15, find cosec θ.",
+      "solution": "cosec²θ = 1 + (8/15)² = 289/225 ⇒ cosec θ = 17/15."
+    },
+    "note": "Useful in simplifying trigonometric expressions."
+  },
+  {
+    "id": "tan-ratio-identity",
+    "category": "Identity",
+    "title": "Tangent Identity",
+    "formula": "tan θ = sin θ / cos θ",
+    "latex": "\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}",
+    "description": "Expresses tangent in terms of sine and cosine.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "If sin θ = 3/5 and cos θ = 4/5, find tan θ.",
+      "solution": "tan θ = (3/5)/(4/5) = 3/4."
+    },
+    "note": "One of the most frequently used identities."
+  },
+  {
+    "id": "cot-ratio-identity",
+    "category": "Identity",
+    "title": "Cotangent Identity",
+    "formula": "cot θ = cos θ / sin θ",
+    "latex": "\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}",
+    "description": "Expresses cotangent in terms of cosine and sine.",
+    "variables": [
+      {
+        "symbol": "θ",
+        "meaning": "Angle"
+      }
+    ],
+    "example": {
+      "question": "If cos θ = 12/13 and sin θ = 5/13, find cot θ.",
+      "solution": "cot θ = (12/13)/(5/13) = 12/5."
+    },
+    "note": "cot θ is the reciprocal of tan θ."
+  },
+
+  {
+    "id": "sin-angle-sum",
+    "category": "Identity",
+    "title": "Sine Angle Sum Formula",
+    "formula": "sin(A+B) = sinA cosB + cosA sinB",
+    "latex": "\\sin(A+B)=\\sin A\\cos B+\\cos A\\sin B",
+    "description": "Calculates the sine of the sum of two angles.",
+    "variables": [
+      { "symbol": "A", "meaning": "First Angle" },
+      { "symbol": "B", "meaning": "Second Angle" }
+    ],
+    "example": {
+      "question": "Find sin(30°+60°).",
+      "solution": "sin30°cos60° + cos30°sin60° = (1/2×1/2)+(√3/2×√3/2)=1."
+    },
+    "note": "Useful for evaluating compound angles."
+  },
+  {
+    "id": "sin-angle-difference",
+    "category": "Identity",
+    "title": "Sine Angle Difference Formula",
+    "formula": "sin(A-B) = sinA cosB - cosA sinB",
+    "latex": "\\sin(A-B)=\\sin A\\cos B-\\cos A\\sin B",
+    "description": "Calculates the sine of the difference of two angles.",
+    "variables": [
+      { "symbol": "A", "meaning": "First Angle" },
+      { "symbol": "B", "meaning": "Second Angle" }
+    ],
+    "example": {
+      "question": "Find sin(45°−30°).",
+      "solution": "sin45°cos30° − cos45°sin30° = (√6−√2)/4."
+    },
+    "note": "The sign changes only in the second term."
+  },
+  {
+    "id": "cos-angle-sum",
+    "category": "Identity",
+    "title": "Cosine Angle Sum Formula",
+    "formula": "cos(A+B) = cosA cosB - sinA sinB",
+    "latex": "\\cos(A+B)=\\cos A\\cos B-\\sin A\\sin B",
+    "description": "Calculates the cosine of the sum of two angles.",
+    "variables": [
+      { "symbol": "A", "meaning": "First Angle" },
+      { "symbol": "B", "meaning": "Second Angle" }
+    ],
+    "example": {
+      "question": "Find cos(60°+30°).",
+      "solution": "cos60°cos30° − sin60°sin30° = 0."
+    },
+    "note": "The middle sign is always negative."
+  },
+  {
+    "id": "cos-angle-difference",
+    "category": "Identity",
+    "title": "Cosine Angle Difference Formula",
+    "formula": "cos(A-B) = cosA cosB + sinA sinB",
+    "latex": "\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B",
+    "description": "Calculates the cosine of the difference of two angles.",
+    "variables": [
+      { "symbol": "A", "meaning": "First Angle" },
+      { "symbol": "B", "meaning": "Second Angle" }
+    ],
+    "example": {
+      "question": "Find cos(60°−30°).",
+      "solution": "cos60°cos30° + sin60°sin30° = √3/2."
+    },
+    "note": "The middle sign is always positive."
+  },
+  {
+    "id": "tan-angle-sum",
+    "category": "Identity",
+    "title": "Tangent Angle Sum Formula",
+    "formula": "tan(A+B) = (tanA + tanB)/(1 - tanA tanB)",
+    "latex": "\\tan(A+B)=\\frac{\\tan A+\\tan B}{1-\\tan A\\tan B}",
+    "description": "Calculates the tangent of the sum of two angles.",
+    "variables": [
+      { "symbol": "A", "meaning": "First Angle" },
+      { "symbol": "B", "meaning": "Second Angle" }
+    ],
+    "example": {
+      "question": "Find tan(45°+30°).",
+      "solution": "(1 + 1/√3)/(1 − 1/√3) = 2 + √3."
+    },
+    "note": "Ensure denominator is not zero."
+  },
+  {
+    "id": "tan-angle-difference",
+    "category": "Identity",
+    "title": "Tangent Angle Difference \n Formula",
+    "formula": "tan(A-B) = (tanA - tanB)/(1 + tanA tanB)",
+    "latex": "\\tan(A-B)=\\frac{\\tan A-\\tan B}{1+\\tan A\\tan B}",
+    "description": "Calculates the tangent of the difference of two angles.",
+    "variables": [
+      { "symbol": "A", "meaning": "First Angle" },
+      { "symbol": "B", "meaning": "Second Angle" }
+    ],
+    "example": {
+      "question": "Find tan(45°−30°).",
+      "solution": "(1 − 1/√3)/(1 + 1/√3) = 2 − √3."
+    },
+    "note": "Commonly used for standard angle calculations."
+  },
+  {
+    "id": "sin-double-angle",
+    "category": "Identity",
+    "title": "Double Angle Formula for Sine",
+    "formula": "sin2A = 2sinA cosA",
+    "latex": "\\sin2A=2\\sin A\\cos A",
+    "description": "Calculates the sine of twice an angle.",
+    "variables": [{ "symbol": "A", "meaning": "Angle" }],
+    "example": {
+      "question": "Find sin60° using the double-angle formula.",
+      "solution": "sin60° = 2sin30°cos30° = √3/2."
+    },
+    "note": "Obtained by substituting B = A in the sine addition formula."
+  },
+  {
+    "id": "cos-double-angle",
+    "category": "Identity",
+    "title": "Double Angle Formula for Cosine",
+    "formula": "cos2A = cos²A - sin²A = 2cos²A - 1 = 1 - 2sin²A",
+    "latex": "\\cos2A=\\cos^2A-\\sin^2A=2\\cos^2A-1=1-2\\sin^2A",
+    "description": "Different equivalent forms of the cosine double-angle identity.",
+    "variables": [{ "symbol": "A", "meaning": "Angle" }],
+    "example": {
+      "question": "Find cos60° using cos2A.",
+      "solution": "cos60° = 1 − 2sin²30° = 1 − 2(1/2)² = 1/2."
+    },
+    "note": "Remember all three equivalent forms."
+  },
+  {
+    "id": "tan-double-angle",
+    "category": "Identity",
+    "title": "Double Angle Formula for \n Tangent",
+    "formula": "tan2A = (2tanA)/(1 - tan²A)",
+    "latex": "\\tan2A=\\frac{2\\tan A}{1-\\tan^2A}",
+    "description": "Calculates the tangent of twice an angle.",
+    "variables": [{ "symbol": "A", "meaning": "Angle" }],
+    "example": {
+      "question": "Find tan90° using tan45°.",
+      "solution": "tan90° = 2(1)/(1−1) → Undefined."
+    },
+    "note": "Undefined when 1 − tan²A = 0."
+  }
+]

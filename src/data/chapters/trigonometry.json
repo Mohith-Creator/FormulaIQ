@@ -1,0 +1,30 @@
+[
+  {
+    "id": "trigonometric-ratios",
+    "number": 1,
+    "title": "Trigonometric Ratios",
+    "subtitle": "Basic trigonometric ratios",
+    "illustration": "trigonometric-ratios"
+  },
+  {
+    "id": "trigonometric-identities",
+    "number": 2,
+    "title": "Trigonometric Identities",
+    "subtitle": "Fundamental trigonometric identities",
+    "illustration": "trigonometric-identities"
+  },
+  {
+    "id": "heights-distances",
+    "number": 3,
+    "title": "Heights & Distances",
+    "subtitle": "Applications of trigonometry",
+    "illustration": "heights-distances"
+  },
+  {
+    "id": "properties",
+    "number": 4,
+    "title": "Properties",
+    "subtitle": "Important trigonometric properties",
+    "illustration": "properties"
+  }
+]
