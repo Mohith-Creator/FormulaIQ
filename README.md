@@ -254,6 +254,7 @@ FormulaIQ currently organizes mathematical content into five major areas:
   <img src="screenshots/formulas.png" width="180" alt="Formula List"/>
   <img src="screenshots/formula-details.png" width="180" alt="Formula Details"/>
 </p>
+
 ---
 
 # ⚙️ Installation
