@@ -11,7 +11,7 @@ Explore essential formulas • Review mathematical concepts • Practice useful 
 </p>
 
 <p align="center">
-<a href="YOUR_APK_LINK">
+<a href="https://expo.dev/accounts/mohith1532/projects/formulaiq/builds/98a8544c-94eb-49bc-a79b-87955959fd57">
 <img src="https://img.shields.io/badge/📱%20Download%20APK-FormulaIQ-2ea44f?style=for-the-badge" alt="Download FormulaIQ APK"/>
 </a>
 </p>
