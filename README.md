@@ -399,8 +399,8 @@ Open a Pull Request from your feature branch to the `main` branch and describe y
 ---
 
 # 📄 License
-
-This project is licensed under the **MIT License**.
+FormulaIQ is licensed under the **MIT License** 
+see the[`LICENSE`](LICENSE) file for more information.
 
 ---
 
