@@ -103,33 +103,33 @@ The application works with locally bundled mathematical content, making formulas
                     ┌─────────────▼─────────────┐
                     │        Navigation         │
                     ├───────────────────────────┤
-                    │ Home                       │
-                    │ Subjects                   │
-                    │ Formula Lists              │
-                    │ Formula Details            │
-                    │ Search                     │
-                    │ Useful Numbers              │
-                    │ Settings                   │
+                    │ Home                      │
+                    │ Subjects                  │
+                    │ Formula Lists             │
+                    │ Formula Details           │
+                    │ Search                    │
+                    │ Useful Numbers            │
+                    │ Settings                  │
                     └─────────────┬─────────────┘
                                   │
               ┌───────────────────▼───────────────────┐
               │              Services                 │
               ├───────────────────────────────────────┤
-              │ Formula Service                        │
-              │ Chapter Service                        │
-              │ Numbers Service                        │
-              │ Reference Service                      │
-              │ Search Service                         │
+              │ Formula Service                       │
+              │ Chapter Service                       │
+              │ Numbers Service                       │
+              │ Reference Service                     │
+              │ Search Service                        │
               └───────────────────┬───────────────────┘
                                   │
                     ┌─────────────▼─────────────┐
                     │       Local Content       │
                     ├───────────────────────────┤
-                    │ Subjects                   │
-                    │ Chapters                   │
-                    │ Formulas                   │
-                    │ References                 │
-                    │ Useful Numbers             │
+                    │ Subjects                  │
+                    │ Chapters                  │
+                    │ Formulas                  │
+                    │ References                │
+                    │ Useful Numbers            │
                     └───────────────────────────┘
 ```
 
