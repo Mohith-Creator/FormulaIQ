@@ -246,13 +246,10 @@ FormulaIQ currently organizes mathematical content into five major areas:
 
 <p align="center">
   <img src="screenshots/home.png" width="180" alt="Home"/>
-  <img src="screenshots/sujects.png" width="180" alt="Subjects"/>
+  <img src="screenshots/chapters.png" width="180" alt="Subjects"/>
   <img src="screenshots/formulas.png" width="180" alt="Formula List"/>
-</p>
-
-<p align="center">
-  <img src="screenshots/formula-detail.png" width="180" alt="Formula Details"/>
-  <img src="screenshots/useful-numbers.png" width="180" alt="Useful Numbers"/>
+  <img src="screenshots/formula-details.png" width="180" alt="Formula Details"/>
+  <img src="screenshots/squares.png" width="180" alt="Useful Numbers"/>
 </p>
 
 ---
