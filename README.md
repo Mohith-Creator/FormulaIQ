@@ -400,9 +400,7 @@ Open a Pull Request from your feature branch to the `main` branch and describe y
 
 # 📄 License
 
-FormulaIQ is licensed under the **MIT License**.
-
-See the `LICENSE` file for more information.
+This project is licensed under the **MIT License**.
 
 ---
 
@@ -412,10 +410,4 @@ See the `LICENSE` file for more information.
 
 **Full Stack Developer • React Native Developer • B.Tech CSE (2026)**
 
-Passionate about building modern mobile applications with **React Native, Expo, JavaScript, and scalable application architecture**, with a focus on creating clean, useful, and intuitive products.
-
----
-
-<p align="center">
-  Made with ❤️ using React Native & Expo
-</p>
+Passionate about building modern full-stack and mobile applications with **React Native, Node.js, Express.js, MongoDB, and AI-powered technologies**.
