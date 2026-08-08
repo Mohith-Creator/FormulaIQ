@@ -1,25 +1,20 @@
-# 🧮 FormulaIQ
+<h1 align="center">FormulaIQ – Smart Mathematics Formula & Revision Companion</h1>
 
 <p align="center">
-  <img src="assets/branding/full-logo.png" width="280" alt="FormulaIQ"/>
+<img src="assets/branding/banner.png" alt="FormulaIQ Banner" width="100%">
 </p>
 
 <p align="center">
-  <strong>A Smart Mathematics Formula & Revision Companion</strong>
+<strong>Learn faster. Revise smarter. Master mathematics with FormulaIQ.</strong>
+<br><br>
+Explore essential formulas • Review mathematical concepts • Practice useful number references • Prepare for competitive exams.
 </p>
 
 <p align="center">
-  A modern React Native application for learning, revising, and quickly accessing essential mathematical formulas, concepts, and useful number references.
+<a href="YOUR_APK_LINK">
+<img src="https://img.shields.io/badge/📱%20Download%20APK-FormulaIQ-2ea44f?style=for-the-badge" alt="Download FormulaIQ APK"/>
+</a>
 </p>
-
-<p align="center">
-  <a href="YOUR_APK_LINK">
-    <img src="https://img.shields.io/badge/📱%20Download%20APK-FormulaIQ-2ea44f?style=for-the-badge" alt="Download FormulaIQ APK"/>
-  </a>
-</p>
-
----
-
 
 ---
 
